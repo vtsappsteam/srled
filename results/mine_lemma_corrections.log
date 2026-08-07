@@ -1,0 +1,65 @@
+Ucitavanje train izvora...
+Using the latest cached version of the dataset since jerteh/SrpKor4Tagging couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at ~/.cache/huggingface/datasets/jerteh___srp_kor4_tagging/default/0.0.0/4f853353dd34825e52c08114ed8d30d6ffbb1a9b (last modified on Wed Jul  8 14:07:38 2026).
+  UD_train: 3328 sent, 74,259 tokens
+  SET2_train_dev: 3864 sent, 86,252 tokens
+  ReLDI_train: 5540 sent, 73,809 tokens
+  SrpKor_train: 14147 sent, 264,534 tokens
+Lematizator (srLex + expanded supplement v2, 17 rucnih korekcija)...
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 14.2s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+Lematizacija UD_train...
+Lematizacija SET2_train_dev...
+Lematizacija ReLDI_train...
+Lematizacija SrpKor_train...
+Kandidati...
+  kandidata (>= 3 pojava, >= 90%): 207
+  primenjeno (>= 5, >= 95%, 0 breaks, per-corpus konzistentno): 101
+    saveta               -> savet                n=292   agr=1.00 [SET2_train_dev:2; SrpKor_train:290]
+    beš                  -> biti                 n=111   agr=1.00 [ReLDI_train:1; SrpKor_train:110]
+    lokalni              -> lokalan              n=86    agr=1.00 [SrpKor_train:86]
+    upravan              -> upravni              n=80    agr=1.00 [SrpKor_train:80]
+    meri                 -> mera                 n=79    agr=1.00 [SrpKor_train:79]
+    kazo                 -> kazati               n=51    agr=1.00 [ReLDI_train:51]
+    ustava               -> ustav                n=51    agr=1.00 [SrpKor_train:51]
+    veka                 -> vek                  n=37    agr=1.00 [SrpKor_train:37]
+    okret                -> okrenuti             n=37    agr=1.00 [SrpKor_train:37]
+    porodični            -> porodičan            n=26    agr=1.00 [ReLDI_train:1; SET2_train_dev:6; SrpKor_train:18; UD_train:1]
+    određeno             -> odrediti             n=24    agr=1.00 [SrpKor_train:24]
+    zabranjeno           -> zabraniti            n=24    agr=1.00 [SrpKor_train:24]
+    ustavni              -> ustavan              n=23    agr=1.00 [SrpKor_train:23]
+    konsultacije         -> konsultacija         n=21    agr=1.00 [SET2_train_dev:4; SrpKor_train:13; UD_train:4]
+    udel                 -> udeo                 n=19    agr=1.00 [SET2_train_dev:4; SrpKor_train:11; UD_train:4]
+    držeći               -> držati               n=19    agr=1.00 [SrpKor_train:19]
+    fehmi                -> fehmiju              n=18    agr=1.00 [SET2_train_dev:9; UD_train:9]
+    iva                  -> ivo                  n=17    agr=1.00 [ReLDI_train:1; SET2_train_dev:8; SrpKor_train:1; UD_train:7]
+    jbt                  -> jebote               n=17    agr=1.00 [ReLDI_train:17]
+    stočni               -> stočan               n=17    agr=1.00 [SrpKor_train:17]
+    izvršeno             -> izvršiti             n=16    agr=1.00 [SrpKor_train:16]
+    stola                -> sto                  n=15    agr=1.00 [SrpKor_train:15]
+    slobodana            -> slobodan             n=14    agr=1.00 [SET2_train_dev:5; SrpKor_train:4; UD_train:5]
+    uveden               -> uvesti               n=14    agr=1.00 [SET2_train_dev:1; SrpKor_train:13]
+    telekomunikacije     -> telekomunikacija     n=13    agr=1.00 [SrpKor_train:13]
+    ini                  -> ina                  n=12    agr=1.00 [SET2_train_dev:6; UD_train:6]
+    štiti                -> štititi              n=12    agr=1.00 [SrpKor_train:12]
+    tarifan              -> tarifni              n=12    agr=1.00 [SrpKor_train:12]
+    hahaha               -> haha                 n=11    agr=1.00 [ReLDI_train:11]
+    kiso                 -> kiša                 n=11    agr=1.00 [ReLDI_train:11]
+    ajde                 -> hajde                n=11    agr=1.00 [ReLDI_train:11]
+    pravi                -> prav                 n=11    agr=1.00 [SrpKor_train:11]
+    ces                  -> hteti                n=10    agr=1.00 [ReLDI_train:10]
+    nadj                 -> naći                 n=10    agr=1.00 [ReLDI_train:10]
+    prioritetni          -> prioritetan          n=10    agr=1.00 [SrpKor_train:10]
+    cene                 -> cena                 n=10    agr=1.00 [SrpKor_train:10]
+    fronta               -> front                n=10    agr=1.00 [SrpKor_train:10]
+    dozvoljeno           -> dozvoliti            n=10    agr=1.00 [SrpKor_train:10]
+    prethodni            -> prethodan            n=10    agr=1.00 [SrpKor_train:10]
+    premerka             -> premijerka           n=9     agr=1.00 [SET2_train_dev:6; UD_train:3]
+Kandidat-lista: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/lemma_correction_candidates.csv
+lemma_corrections_v2.csv: <PROJECT_ROOT>/Diacritics-Restoration/repo/data/lemma_corrections_v2.csv (17 rucnih + 101 novih)

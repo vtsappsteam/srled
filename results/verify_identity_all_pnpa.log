@@ -1,0 +1,29 @@
+Using the latest cached version of the dataset since jerteh/SrpKor4Tagging couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at ~/.cache/huggingface/datasets/jerteh___srp_kor4_tagging/default/0.0.0/4f853353dd34825e52c08114ed8d30d6ffbb1a9b (last modified on Wed Jul  8 14:07:38 2026).
+UD test: 520 sentences, 11,421 tokens
+UD dev: 536 sentences, 11,993 tokens
+ReLDI test: 668 sentences, 9,088 tokens
+SrpKor test: 1571 sentences, 29,276 tokens
+TOTAL: 61,778 tokens
+
+Loading reference lemmatizer...
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 12.1s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+  Lemmatizer UD test: 11421/11421 identical
+  Lemmatizer UD dev: 11993/11993 identical
+  Lemmatizer ReLDI test: 9088/9088 identical
+  Lemmatizer SrpKor test: 29276/29276 identical
+LEMMATIZER identity: 61778/61778 (PASS)
+
+Loading NLTK tagger (reference)...
+  Tagger UD test: 11421/11421 identical (4s)
+  Tagger UD dev: 11993/11993 identical (3s)
+  Tagger ReLDI test: 9088/9088 identical (2s)
+  Tagger SrpKor test: 29276/29276 identical (7s)
+TAGGER identity: 61778/61778 (PASS)

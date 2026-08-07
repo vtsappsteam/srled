@@ -1,0 +1,82 @@
+{
+  "corpus": "UD Serbian-SET test split (held out)",
+  "tokens": 11421,
+  "msd_original": 95.02,
+  "msd_stripped": 93.67,
+  "msd_drop_pp": -1.35,
+  "pos_original": 98.72,
+  "pos_stripped": 97.83,
+  "pos_drop_pp": -0.89,
+  "per_pos_msd": {
+    "N": {
+      "n": 3789,
+      "msd_original": 92.58,
+      "msd_stripped": 91.42,
+      "drop_pp": -1.16,
+      "pct_tokens_with_diacritics": 17.6
+    },
+    "V": {
+      "n": 1690,
+      "msd_original": 98.52,
+      "msd_stripped": 97.81,
+      "drop_pp": -0.71,
+      "pct_tokens_with_diacritics": 19.7
+    },
+    "Z": {
+      "n": 1419,
+      "msd_original": 99.86,
+      "msd_stripped": 99.93,
+      "drop_pp": 0.07,
+      "pct_tokens_with_diacritics": 0.0
+    },
+    "A": {
+      "n": 1213,
+      "msd_original": 91.26,
+      "msd_stripped": 89.28,
+      "drop_pp": -1.98,
+      "pct_tokens_with_diacritics": 32.3
+    },
+    "S": {
+      "n": 1122,
+      "msd_original": 98.75,
+      "msd_stripped": 96.79,
+      "drop_pp": -1.96,
+      "pct_tokens_with_diacritics": 2.2
+    },
+    "C": {
+      "n": 796,
+      "msd_original": 99.5,
+      "msd_stripped": 99.12,
+      "drop_pp": -0.38,
+      "pct_tokens_with_diacritics": 2.6
+    },
+    "P": {
+      "n": 601,
+      "msd_original": 90.52,
+      "msd_stripped": 90.18,
+      "drop_pp": -0.33,
+      "pct_tokens_with_diacritics": 5.5
+    },
+    "R": {
+      "n": 404,
+      "msd_original": 96.53,
+      "msd_stripped": 84.65,
+      "drop_pp": -11.88,
+      "pct_tokens_with_diacritics": 39.1
+    },
+    "M": {
+      "n": 303,
+      "msd_original": 88.45,
+      "msd_stripped": 88.45,
+      "drop_pp": 0.0,
+      "pct_tokens_with_diacritics": 3.3
+    },
+    "Q": {
+      "n": 51,
+      "msd_original": 94.12,
+      "msd_stripped": 94.12,
+      "drop_pp": 0.0,
+      "pct_tokens_with_diacritics": 0.0
+    }
+  }
+}

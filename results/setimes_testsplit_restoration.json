@@ -1,0 +1,22 @@
+{
+ "matching": "alphanumeric-normalized sentence keys vs UD Serbian-SET test",
+ "sentences_matched": 437,
+ "ud_test_sentences": 520,
+ "note": "83 UD test sentences are absent from set.sr.conll (corpus version difference); all matched sentences are guaranteed unseen by the guiding v5 tagger (fine-tuned on the UD training split only)",
+ "test_split": {
+  "method": "POS-Aware v6",
+  "domain": "SETimes held-out test split",
+  "num_sentences": 437,
+  "time_seconds": 4.02,
+  "word_accuracy": 99.71,
+  "total_words": 8188,
+  "correct_words": 8164,
+  "diac_word_accuracy": 98.45,
+  "total_diac_words": 1359,
+  "correct_diac_words": 1338,
+  "char_accuracy": 99.95,
+  "total_chars": 45505,
+  "diac_char_accuracy": 98.55,
+  "total_diac_chars": 1447
+ }
+}

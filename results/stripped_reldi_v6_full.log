@@ -1,0 +1,65 @@
+1. Restoration module (Stage 3) tables...
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 13.8s
+  Višeznačnih ASCII oblika: 45,014
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/data/srwac_augment_np.json
+  26,609 Np oblika
+   6899 sentences, 92,107 tokens
+2. LEGACY protocol (srLex-only + 17 corrections) - sanity...
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 14.0s
+  Višeznačnih ASCII oblika: 45,014
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+   B_legacy 90.29 (ref 90.29) | C_legacy 93.14 (ref 93.14)
+3. LOCKED system (supplement v2 + 148 corrections)...
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 12.1s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+   B 94.43 | C 96.57
+4. CLASSLA on stripped text (this takes a while)...
+   D 93.9 (ref 93.9)
+{
+ "tokens": 92107,
+ "config": "locked: srLex + expanded_supplement_v2 + 148 corrections + Pn/Pa->P; Stage 3 = srwac_supplement_v2 + Np tables",
+ "B_lemmatizer_alone": 94.43,
+ "C_stage3_restoration": 96.57,
+ "D_classla": 93.9,
+ "legacy_protocol_sanity": {
+  "B": 90.29,
+  "C": 93.14,
+  "D": 93.9,
+  "reference": {
+   "B": 90.29,
+   "C": 93.14,
+   "D": 93.9
+  },
+  "pass": true
+ },
+ "mcnemar_B_vs_D": {
+  "p": 0.0,
+  "first_only": 2789,
+  "second_only": 2295
+ },
+ "mcnemar_C_vs_D": {
+  "p": 0.0,
+  "first_only": 4020,
+  "second_only": 1557
+ },
+ "mcnemar_B_vs_C": {
+  "p": 0.0,
+  "first_only": 435,
+  "second_only": 2404
+ }
+}
+Saved: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/stripped_reldi_v6_full.json
+LEGACY SANITY: PASS

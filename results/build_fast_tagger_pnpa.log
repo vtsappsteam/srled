@@ -1,0 +1,14 @@
+Verification workload: 520 sentences, 11,421 tokens
+
+Converting NLTK model -> compact format...
+  Done in 54s: 3,529,904 features, 18,596,454 weights, 752 classes
+  Model size on disk: 263 MB
+
+Tagging with NLTK tagger (reference)...
+  1,480 tok/s
+
+Loading fast tagger...
+  Loaded in 0.02s
+  1,901 tok/s (1.3x faster)
+
+Identity check: 11421/11421 identical (PASS)

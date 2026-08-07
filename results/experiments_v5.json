@@ -1,0 +1,14 @@
+{
+  "reldi_normal": 92.44,
+  "reldi_stripped_ours": 90.29,
+  "ud_test_accuracy": 98.24,
+  "ud_test_ci_95": [
+    98.0,
+    98.49
+  ],
+  "coarse_pos_vs_msd": {
+    "full_msd": 98.24,
+    "coarse_pos": 97.01,
+    "no_pos": 95.25
+  }
+}

@@ -1,0 +1,44 @@
+{
+ "tokens": 9108,
+ "sentences": 668,
+ "locked": {
+  "B_lemmatizer_alone": 92.47,
+  "C_stage3_restoration": 94.58,
+  "D_classla": 91.68,
+  "mcnemar_B_vs_D": {
+   "p": 0.003432,
+   "first_only": 331,
+   "second_only": 259
+  },
+  "mcnemar_C_vs_D": {
+   "p": 0.0,
+   "first_only": 443,
+   "second_only": 179
+  },
+  "mcnemar_B_vs_C": {
+   "p": 0.0,
+   "first_only": 26,
+   "second_only": 218
+  }
+ },
+ "legacy_srlex_only": {
+  "B_lemmatizer_alone": 90.54,
+  "C_stage3_restoration": 93.17,
+  "D_classla": 91.68,
+  "mcnemar_B_vs_D": {
+   "p": 0.000198,
+   "first_only": 332,
+   "second_only": 436
+  },
+  "mcnemar_C_vs_D": {
+   "p": 1e-06,
+   "first_only": 441,
+   "second_only": 305
+  },
+  "mcnemar_B_vs_C": {
+   "p": 0.0,
+   "first_only": 9,
+   "second_only": 249
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+  "workload": {
+    "sentences": 520,
+    "tokens": 11421,
+    "source": "UD Serbian-SET test"
+  },
+  "methodology": {
+    "reps": 5,
+    "warmup": true,
+    "timer": "time.perf_counter",
+    "memory": "ru_maxrss (peak RSS)",
+    "hardware": "Apple M2, 16 GB RAM, single core"
+  },
+  "load_time_s": {
+    "lemmatizer": 35.16,
+    "tagger": 21.29
+  },
+  "lemma_only": {
+    "throughput_mean": 1997900,
+    "throughput_std": 123182,
+    "times_s": [
+      0.128,
+      0.111,
+      0.112,
+      0.111,
+      0.111
+    ],
+    "replications": 20
+  },
+  "end_to_end": {
+    "throughput_mean": 5804,
+    "throughput_std": 60,
+    "latency_ms_per_sent_mean": 3.78,
+    "latency_ms_per_sent_std": 0.04,
+    "times_s": [
+      2.004,
+      1.958,
+      1.952,
+      1.965,
+      1.961
+    ]
+  },
+  "peak_rss_gb": 8.22,
+  "rss_after_lemmatizer_gb": 5.55,
+  "rss_after_both_gb": 8.22,
+  "session_note": "Merenje je ponovljeno u tri odvojene sesije 4. avgusta 2026: e2e 5,824 +- 73 / 5,659 +- 87 / 5,804 +- 60 tok/s, lemma-only 2,035,055 / 2,040,186 / 1,997,900 tok/s, peak RSS 8.34 / 8.42 / 8.22 GB. U rad ide medijanska sesija (ova, run3); raspon je zabelezen u JUCS journal/RETRENING_MAPA_BROJEVA.md §H3. Logovi: Diacritics-Restoration/logs/benchmark_*.log"
+}

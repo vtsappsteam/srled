@@ -1,0 +1,21 @@
+{
+  "corpus": "SETimes.SR",
+  "total_words": 74731,
+  "full": {
+    "correct_words": 74402,
+    "word_accuracy_4dp": 99.5598,
+    "diac_word_accuracy": 97.93
+  },
+  "no_pos": {
+    "correct_words": 74402,
+    "word_accuracy_4dp": 99.5598,
+    "diac_word_accuracy": 98.12
+  },
+  "delta_pp_4dp": 0.0,
+  "mcnemar_full_vs_nopos": {
+    "only_a": 70,
+    "only_b": 70,
+    "z": 0.0,
+    "p": 1.0
+  }
+}

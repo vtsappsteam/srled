@@ -1,0 +1,8 @@
+nltk==3.9.4
+numpy==2.4.6
+scipy==1.18.0
+matplotlib==3.11.0
+marisa-trie==1.4.1
+datasets==5.0.0
+tqdm==4.68.2
+# CLASSLA-Stanza baseline runs in a separate virtualenv: classla==2.2.1 (Python 3.12)

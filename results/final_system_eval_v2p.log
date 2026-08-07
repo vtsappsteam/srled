@@ -1,0 +1,57 @@
+TAGER: <PROJECT_ROOT>/NLTK Treniranje/models_v2p_pnpa/perceptron-tagger-v2p-combined.pickle
+IZLAZ: <PROJECT_ROOT>/Diacritics-Restoration/results/final_system_eval_v2p.json
+
+Konfiguracija (zaključani sistem):
+  EXTRA   = <PROJECT_ROOT>/Diacritics-Restoration/data/expanded_supplement_v2.json
+  MODEL   = <PROJECT_ROOT>/NLTK Treniranje/models_v2p_pnpa/perceptron-tagger-v2p-combined.pickle
+  korekcije = 148
+
+Učitavanje lematizatora i tagera...
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 12.6s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+Using the latest cached version of the dataset since jerteh/SrpKor4Tagging couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at ~/.cache/huggingface/datasets/jerteh___srp_kor4_tagging/default/0.0.0/4f853353dd34825e52c08114ed8d30d6ffbb1a9b (last modified on Wed Jul  8 14:07:38 2026).
+
+=== UD-SET (news): 520 rečenica, 11,421 tokena ===
+  gold 98.48 | e2e 98.18 | tagger {'msd_accuracy_normalized': 95.02, 'pos_accuracy': 98.72}
+  SANITY vs reviewed (98.48/98.13): FAIL
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/results/final_system_eval_v2p.json
+
+=== ReLDI (Twitter): 668 rečenica, 9,088 tokena ===
+  gold 94.43 | e2e 93.54 | tagger {'msd_accuracy_normalized': 87.61, 'pos_accuracy': 94.1}
+  SANITY vs reviewed (94.43/93.29): FAIL
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/results/final_system_eval_v2p.json
+
+=== SrpKor (lit+admin): 1571 rečenica, 29,276 tokena ===
+  gold 88.95 | e2e 88.38 | tagger {'pos_accuracy': 90.96, 'note': 'SrpKor gold je UPOS->grubi tag'}
+  SANITY vs reviewed (88.95/88.31): FAIL
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/results/final_system_eval_v2p.json
+
+=== T3: per-POS (UD test, gold tagovi, vs CLASSLA std) ===
+  N: n=3789 ours 97.57 classla 98.28 p=0.005545
+  V: n=1690 ours 99.7 classla 99.41 p=0.226562
+  A: n=1213 ours 95.3 classla 94.81 p=0.429591
+  P: n=601 ours 99.17 classla 97.5 p=0.001953
+  R: n=404 ours 98.51 classla 98.27 p=1.0
+  S: n=1122 ours 99.82 classla 98.93 p=0.006348
+  C: n=796 ours 99.87 classla 99.87 p=1.0
+  M: n=303 ours 99.34 classla 99.34 p=1.0
+  Q: n=51 ours 100.0 classla 100.0 p=1.0
+
+=== T7: granularnost (UD test, zaključani sistem) ===
+  full: 98.48
+  coarse: 97.29
+  none: 95.57
+
+=== S4.2: degradacija tagera na SETimes bez dijakritika ===
+  SETimes: 3891 rečenica, 86,726 tokena
+  MSD 98.02 -> 96.26 (-1.76 pp) | POS 99.43 -> 98.5 (-0.93 pp)
+
+GOTOVO. Sanity vs dict_improvements 'reviewed': FAIL
+Sačuvano: <PROJECT_ROOT>/Diacritics-Restoration/results/final_system_eval_v2p.json

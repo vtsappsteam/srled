@@ -1,0 +1,33 @@
+{
+ "tokens": 92107,
+ "config": "locked: srLex + expanded_supplement_v2 + 148 corrections + Pn/Pa->P; Stage 3 = srwac_supplement_v2 + Np tables",
+ "B_lemmatizer_alone": 94.43,
+ "C_stage3_restoration": 96.57,
+ "D_classla": 93.9,
+ "legacy_protocol_sanity": {
+  "B": 90.29,
+  "C": 93.14,
+  "D": 93.9,
+  "reference": {
+   "B": 90.29,
+   "C": 93.14,
+   "D": 93.9
+  },
+  "pass": true
+ },
+ "mcnemar_B_vs_D": {
+  "p": 0.0,
+  "first_only": 2789,
+  "second_only": 2295
+ },
+ "mcnemar_C_vs_D": {
+  "p": 0.0,
+  "first_only": 4020,
+  "second_only": 1557
+ },
+ "mcnemar_B_vs_C": {
+  "p": 0.0,
+  "first_only": 435,
+  "second_only": 2404
+ }
+}

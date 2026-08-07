@@ -1,0 +1,26 @@
+ReLDI test split: 668 sentences, 9,108 tokens
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 13.8s
+  Višeznačnih ASCII oblika: 45,014
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/data/srwac_augment_np.json
+  26,609 Np oblika
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 14.2s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+locked {"B_lemmatizer_alone": 92.47, "C_stage3_restoration": 94.58, "D_classla": 91.68, "mcnemar_B_vs_D": {"p": 0.003432, "first_only": 331, "second_only": 259}, "mcnemar_C_vs_D": {"p": 0.0, "first_only": 443, "second_only": 179}, "mcnemar_B_vs_C": {"p": 0.0, "first_only": 26, "second_only": 218}}
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 11.9s
+  Višeznačnih ASCII oblika: 45,014
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+legacy_srlex_only {"B_lemmatizer_alone": 90.54, "C_stage3_restoration": 93.17, "D_classla": 91.68, "mcnemar_B_vs_D": {"p": 0.000198, "first_only": 332, "second_only": 436}, "mcnemar_C_vs_D": {"p": 1e-06, "first_only": 441, "second_only": 305}, "mcnemar_B_vs_C": {"p": 0.0, "first_only": 9, "second_only": 249}}
+Saved: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/stripped_reldi_test_split.json

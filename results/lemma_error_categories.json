@@ -1,0 +1,227 @@
+{
+ "total_errors": 174,
+ "categories": {
+  "gold_lemma_missing": 139,
+  "wrong_selection": 35,
+  "oov": 66
+ },
+ "shares_pct": {
+  "gold_lemma_missing": 79.9,
+  "wrong_selection": 20.1,
+  "oov": 37.9
+ },
+ "per_pos": {
+  "N": 92,
+  "A": 57,
+  "R": 6,
+  "P": 5,
+  "V": 5,
+  "Z": 3,
+  "S": 2,
+  "M": 2,
+  "X": 1,
+  "C": 1
+ },
+ "examples": [
+  {
+   "word": "rođenih",
+   "gold": "rođen",
+   "pred": "roditi",
+   "msd": "Agpmpgy",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "dobro",
+   "gold": "dobar",
+   "pred": "dobro",
+   "msd": "Rgp",
+   "in_dict": true,
+   "gold_in_dict": true
+  },
+  {
+   "word": "postignuti",
+   "gold": "postignut",
+   "pred": "postignuti",
+   "msd": "Agpmpny",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "šta",
+   "gold": "šta",
+   "pred": "što",
+   "msd": "Pi3n-a",
+   "in_dict": true,
+   "gold_in_dict": true
+  },
+  {
+   "word": "projekta",
+   "gold": "projekt",
+   "pred": "projekat",
+   "msd": "Ncmsg",
+   "in_dict": true,
+   "gold_in_dict": true
+  },
+  {
+   "word": "Ratka",
+   "gold": "Ratko",
+   "pred": "ratka",
+   "msd": "Npmsg",
+   "in_dict": true,
+   "gold_in_dict": true
+  },
+  {
+   "word": "žive",
+   "gold": "živjeti",
+   "pred": "živeti",
+   "msd": "Vmr3p",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "Ladena",
+   "gold": "Laden",
+   "pred": "Ladena",
+   "msd": "Npmsg",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "Kaide",
+   "gold": "Kaida",
+   "pred": "Kaide",
+   "msd": "Npfsg",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "Kaide",
+   "gold": "Kaida",
+   "pred": "Kaide",
+   "msd": "Npfsg",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "povodom",
+   "gold": "povodom",
+   "pred": "povod",
+   "msd": "Sg",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "Ladena",
+   "gold": "Laden",
+   "pred": "Ladena",
+   "msd": "Npmsg",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "istaknutih",
+   "gold": "istaknut",
+   "pred": "istaknuti",
+   "msd": "Agpmpgy",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "pojačana",
+   "gold": "pojačan",
+   "pred": "pojačati",
+   "msd": "Agpfsny",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "minimalizovanju",
+   "gold": "minimalizovanje",
+   "pred": "minimalizovanju",
+   "msd": "Ncnsl",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "Kaide",
+   "gold": "Kaida",
+   "pred": "Kaide",
+   "msd": "Npfsg",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "Ladena",
+   "gold": "Laden",
+   "pred": "Ladena",
+   "msd": "Npmsg",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "napunjenih",
+   "gold": "napunjen",
+   "pred": "napuniti",
+   "msd": "Agpmpgy",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "diversifikovanija",
+   "gold": "diversifikovan",
+   "pred": "diversifikovanija",
+   "msd": "Agcfsny",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "Kaide",
+   "gold": "Kaida",
+   "pred": "Kaide",
+   "msd": "Ncfsg",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "postignuti",
+   "gold": "postignut",
+   "pred": "postignuti",
+   "msd": "Agpmpny",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "postignutim",
+   "gold": "postignut",
+   "pred": "postići",
+   "msd": "Agpmpiy",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "26-člane",
+   "gold": "26-člani",
+   "pred": "26-člane",
+   "msd": "Agpfsgy",
+   "in_dict": false,
+   "gold_in_dict": false
+  },
+  {
+   "word": "Toni",
+   "gold": "Toni",
+   "pred": "tona",
+   "msd": "Npmsn",
+   "in_dict": true,
+   "gold_in_dict": false
+  },
+  {
+   "word": "najgorim",
+   "gold": "zao",
+   "pred": "loš",
+   "msd": "Agsfpiy",
+   "in_dict": true,
+   "gold_in_dict": true
+  }
+ ]
+}

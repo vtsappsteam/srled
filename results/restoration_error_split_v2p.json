@@ -1,0 +1,16 @@
+{
+  "setimes": {
+    "correct_words": 74402,
+    "errors": 329,
+    "diac_errors": 249,
+    "false_changes": 80,
+    "diac_word_accuracy": 97.93,
+    "redi_nolm_false_changes": 204
+  },
+  "reldi": {
+    "errors": 5684,
+    "diac_errors": 470,
+    "errors_on_undiacritized_gold": 5214,
+    "share_pct": 91.7
+  }
+}

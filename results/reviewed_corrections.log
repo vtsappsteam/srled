@@ -1,0 +1,80 @@
+Pregledano: 207 kandidata -> 131 da / 76 ne (ranije primenjeno mehanicki: 101)
+lemma_corrections_v2.csv REGENERISAN: 17 rucnih + 131 pregledanih = 148 korekcija
+Test setovi...
+Using the latest cached version of the dataset since jerteh/SrpKor4Tagging couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at ~/.cache/huggingface/datasets/jerteh___srp_kor4_tagging/default/0.0.0/4f853353dd34825e52c08114ed8d30d6ffbb1a9b (last modified on Wed Jul  8 14:07:38 2026).
+  UD-SET (news): 520 sent, 11,421 tok
+  ReLDI (Twitter): 668 sent, 9,088 tok
+  SrpKor (lit+admin): 1571 sent, 29,276 tok
+Tagovanje (srwac_pnpa, jednom; Pn*/Pa* -> P*)...
+  UD-SET (news): tagovano
+  ReLDI (Twitter): tagovano
+  SrpKor (lit+admin): tagovano
+
+=== Config baseline: srLex + expanded_supplement v1 + 17 manual corrections (published)
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 13.8s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +7,893 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+  UD-SET (news): gold 98.47% | end-to-end 98.11%
+  ReLDI (Twitter): gold 94.18% | end-to-end 93.05%
+  SrpKor (lit+admin): gold 88.40% | end-to-end 87.71%
+
+=== Config old_applied: supplement v2 + 17+101 mechanically applied (pre-review, sanity)
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 12.1s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+  UD-SET (news): gold 98.49% | end-to-end 98.14%
+  ReLDI (Twitter): gold 94.41% | end-to-end 93.27%
+  SrpKor (lit+admin): gold 88.95% | end-to-end 88.29%
+
+=== Config reviewed: FINAL: supplement v2 + 17 manual + 131 reviewed corrections
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 13.5s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+  UD-SET (news): gold 98.48% | end-to-end 98.13%
+  ReLDI (Twitter): gold 94.43% | end-to-end 93.29%
+  SrpKor (lit+admin): gold 88.95% | end-to-end 88.31%
+
+Sanity provere...
+  UD-SET (news): baseline gold == npz: True | baseline e2e 98.11 == pnpa_2x2 98.11: True | old_applied 98.49/98.14 == dict_improvements 98.49/98.14: True
+  ReLDI (Twitter): baseline gold == npz: True | baseline e2e 93.05 == pnpa_2x2 93.05: True | old_applied 94.41/93.27 == dict_improvements 94.41/93.27: True
+  SrpKor (lit+admin): baseline gold == npz: True | baseline e2e 87.71 == pnpa_2x2 87.71: True | old_applied 88.95/88.29 == dict_improvements 88.95/88.29: True
+
+Statistika i upis...
+  UD-SET (news) gold_reviewed_vs_baseline: diff +0.009 pp, fix/break 8/7, p=1.0, TOST ekv.: True
+  UD-SET (news) gold_reviewed_vs_old101: diff -0.009 pp, fix/break 0/1, p=1.0, TOST ekv.: True
+  UD-SET (news) gold_reviewed_vs_classla_std: diff +0.088 pp, fix/break 91/81, p=0.4927, TOST ekv.: True
+  UD-SET (news) e2e_reviewed_vs_baseline: diff +0.018 pp, fix/break 9/7, p=0.8036, TOST ekv.: True
+  UD-SET (news) e2e_reviewed_vs_old101: diff -0.009 pp, fix/break 0/1, p=1.0, TOST ekv.: True
+  UD-SET (news) e2e_reviewed_vs_classla_std: diff -0.263 pp, fix/break 80/110, p=0.0351, TOST ekv.: True
+  ReLDI (Twitter) gold_reviewed_vs_baseline: diff +0.253 pp, fix/break 24/1, p=0.0, TOST ekv.: True
+  ReLDI (Twitter) gold_reviewed_vs_old101: diff +0.022 pp, fix/break 3/1, p=0.625, TOST ekv.: True
+  ReLDI (Twitter) gold_reviewed_vs_classla_std: diff +0.066 pp, fix/break 223/217, p=0.8116, TOST ekv.: True
+  ReLDI (Twitter) gold_reviewed_vs_classla_ns: diff -1.320 pp, fix/break 140/260, p=0.0, TOST ekv.: False
+  ReLDI (Twitter) e2e_reviewed_vs_baseline: diff +0.242 pp, fix/break 23/1, p=0.0, TOST ekv.: True
+  ReLDI (Twitter) e2e_reviewed_vs_old101: diff +0.022 pp, fix/break 3/1, p=0.625, TOST ekv.: True
+  ReLDI (Twitter) e2e_reviewed_vs_classla_std: diff -1.078 pp, fix/break 173/271, p=0.0, TOST ekv.: False
+  ReLDI (Twitter) e2e_reviewed_vs_classla_ns: diff -2.465 pp, fix/break 114/338, p=0.0, TOST ekv.: False
+  SrpKor (lit+admin) gold_reviewed_vs_baseline: diff +0.553 pp, fix/break 162/0, p=0.0, TOST ekv.: False
+  SrpKor (lit+admin) gold_reviewed_vs_old101: diff +0.000 pp, fix/break 5/5, p=1.0, TOST ekv.: True
+  SrpKor (lit+admin) gold_reviewed_vs_classla_std: diff +0.731 pp, fix/break 620/406, p=0.0, TOST ekv.: False
+  SrpKor (lit+admin) e2e_reviewed_vs_baseline: diff +0.598 pp, fix/break 175/0, p=0.0, TOST ekv.: False
+  SrpKor (lit+admin) e2e_reviewed_vs_old101: diff +0.020 pp, fix/break 11/5, p=0.2101, TOST ekv.: True
+  SrpKor (lit+admin) e2e_reviewed_vs_classla_std: diff +0.089 pp, fix/break 331/305, p=0.3215, TOST ekv.: True
+
+GOTOVO. Sanity (baseline==npz/pnpa_2x2, old_applied==stored): PASS

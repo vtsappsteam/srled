@@ -1,0 +1,22 @@
+{
+ "matching": "alphanumeric-normalized sentence keys vs UD Serbian-SET test",
+ "tagger": "perceptron-tagger-v2p-udonly.pickle",
+ "sentences_matched": 437,
+ "sentences_total_corpus": 3891,
+ "test_split": {
+  "method": "POS-Aware v6",
+  "domain": "SETimes held-out test split",
+  "num_sentences": 437,
+  "time_seconds": 2.18,
+  "word_accuracy": 99.66,
+  "total_words": 8188,
+  "correct_words": 8160,
+  "diac_word_accuracy": 98.16,
+  "total_diac_words": 1359,
+  "correct_diac_words": 1334,
+  "char_accuracy": 99.94,
+  "total_chars": 45505,
+  "diac_char_accuracy": 98.27,
+  "total_diac_chars": 1447
+ }
+}

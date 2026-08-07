@@ -1,0 +1,38 @@
+{
+  "workload": {
+    "sentences": 520,
+    "tokens": 11421,
+    "source": "UD Serbian-SET test"
+  },
+  "methodology": {
+    "reps": 5,
+    "warmup": true,
+    "timer": "time.perf_counter",
+    "memory": "ru_maxrss (peak RSS)",
+    "hardware": "Apple M2, 16 GB RAM",
+    "workers": 8
+  },
+  "load_time_s": {
+    "tagger": 0.01,
+    "lexicon": 0.05
+  },
+  "lemma_only_compact": {
+    "throughput_mean": 351922,
+    "throughput_std": 2750
+  },
+  "end_to_end_single": {
+    "throughput_mean": 40502,
+    "throughput_std": 300,
+    "latency_ms_mean": 0.54,
+    "latency_ms_std": 0.0
+  },
+  "end_to_end_parallel": {
+    "throughput_mean": 180223,
+    "throughput_std": 10670,
+    "workers": 8
+  },
+  "peak_rss_gb": {
+    "parent": 0.45,
+    "max_child": 0.3
+  }
+}

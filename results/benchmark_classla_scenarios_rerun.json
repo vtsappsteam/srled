@@ -1,0 +1,20 @@
+{
+ "workload": {
+  "sentences": 520,
+  "tokens": 11421
+ },
+ "load_time_s": 7.1,
+ "batch_tok_s": [
+  6477,
+  63
+ ],
+ "single_stream_tok_s": [
+  1028,
+  0
+ ],
+ "single_stream_ms_per_sent": [
+  21.4,
+  0.0
+ ],
+ "peak_rss_gb": 4.44
+}

@@ -1,0 +1,60 @@
+Korekcije: 17 rucnih + 101 novih = 118
+Test setovi...
+Using the latest cached version of the dataset since jerteh/SrpKor4Tagging couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at ~/.cache/huggingface/datasets/jerteh___srp_kor4_tagging/default/0.0.0/4f853353dd34825e52c08114ed8d30d6ffbb1a9b (last modified on Wed Jul  8 14:07:38 2026).
+  UD-SET (news): 520 sent, 11,421 tok
+  ReLDI (Twitter): 668 sent, 9,088 tok
+  SrpKor (lit+admin): 1571 sent, 29,276 tok
+Tagovanje (srwac_pnpa, jednom; Pn*/Pa* -> P*)...
+  UD-SET (news): tagovano
+  ReLDI (Twitter): tagovano
+  SrpKor (lit+admin): tagovano
+
+=== Config baseline: srLex + expanded_supplement v1 + 17 manual corrections (published)
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 13.1s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +7,893 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+  UD-SET (news): gold 98.47% | end-to-end 98.11%
+  ReLDI (Twitter): gold 94.18% | end-to-end 93.05%
+  SrpKor (lit+admin): gold 88.40% | end-to-end 87.71%
+
+=== Config v2_dict: #1: + SrpKor train pairs in expanded_supplement_v2
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 12.1s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+  UD-SET (news): gold 98.49% | end-to-end 98.14%
+  ReLDI (Twitter): gold 94.20% | end-to-end 93.07%
+  SrpKor (lit+admin): gold 88.86% | end-to-end 88.16%
+
+=== Config v2_dict_corr: #1+#2: + data-driven lemma corrections (lemma_corrections_v2)
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 12.7s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+  UD-SET (news): gold 98.49% | end-to-end 98.14%
+  ReLDI (Twitter): gold 94.41% | end-to-end 93.27%
+  SrpKor (lit+admin): gold 88.95% | end-to-end 88.29%
+
+Sanity provere...
+  UD-SET (news): baseline gold == npz: True | baseline e2e 98.11 == pnpa_2x2 98.11: True
+  ReLDI (Twitter): baseline gold == npz: True | baseline e2e 93.05 == pnpa_2x2 93.05: True
+  SrpKor (lit+admin): baseline gold == npz: True | baseline e2e 87.71 == pnpa_2x2 87.71: True
+checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/dict_improvements.json (UD-SET (news))
+checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/dict_improvements.json (ReLDI (Twitter))
+checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/dict_improvements.json (SrpKor (lit+admin))
+
+GOTOVO. Sanity: PASS

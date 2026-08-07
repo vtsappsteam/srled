@@ -1,0 +1,27 @@
+{
+ "tokens": 9108,
+ "sentences": 668,
+ "tagger_stripped_msd_acc": 86.66,
+ "tagger_stripped_pos_acc": 93.43,
+ "E_lemmatizer_alone_pred": 91.58,
+ "F_stage3_pred": 93.48,
+ "D_classla": 91.68,
+ "mcnemar_E_vs_D": {
+  "p": 0.74043,
+  "first_only": 287,
+  "second_only": 296,
+  "diff_pp": -0.1
+ },
+ "mcnemar_F_vs_D": {
+  "p": 0.0,
+  "first_only": 392,
+  "second_only": 228,
+  "diff_pp": 1.8
+ },
+ "mcnemar_F_vs_E": {
+  "p": 0.0,
+  "first_only": 202,
+  "second_only": 29,
+  "diff_pp": 1.9
+ }
+}

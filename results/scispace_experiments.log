@@ -1,0 +1,169 @@
+Učitavanje lematizatora i tagera...
+Using the latest cached version of the dataset since jerteh/SrpKor4Tagging couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at ~/.cache/huggingface/datasets/jerteh___srp_kor4_tagging/default/0.0.0/4f853353dd34825e52c08114ed8d30d6ffbb1a9b (last modified on Wed Jul  8 14:07:38 2026).
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 14.7s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +7,893 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+
+=== UD-SET (news): 520 rečenica, 11,421 tokena ===
+  gold tagovi:      98.47%
+  predicted MSD:    98.07%
+  CLASSLA standard...
+  CLASSLA standard: 98.39%
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/scispace_experiments.json
+
+=== ReLDI (Twitter): 668 rečenica, 9,088 tokena ===
+  gold tagovi:      94.18%
+  predicted MSD:    92.03%
+  CLASSLA standard...
+  CLASSLA standard: 94.37%
+  CLASSLA nonstandard...
+  CLASSLA nonstd:   95.75%
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/scispace_experiments.json
+
+=== SrpKor (lit+admin): 1571 rečenica, 29,276 tokena ===
+  gold tagovi:      88.40%
+  predicted MSD:    87.75%
+  CLASSLA standard...
+  CLASSLA standard: 88.22%
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/scispace_experiments.json
+
+GOTOVO. Rezime:
+{
+ "UD-SET (news)": {
+  "tokens": 11421,
+  "our_gold": 98.47,
+  "our_pred": 98.07,
+  "classla_standard": 98.39,
+  "gold_vs_classla": {
+   "p_exact": 0.5432,
+   "p_chi2": 0.543,
+   "only_ours": 91,
+   "only_classla": 82,
+   "diff_pp": 0.079,
+   "ci95_pp": [
+    -0.147,
+    0.305
+   ],
+   "tost_margin_pp": 0.5,
+   "tost_p": 0.00013,
+   "equivalent_at_margin": true
+  },
+  "pred_vs_classla": {
+   "p_exact": 0.0122,
+   "p_chi2": 0.0124,
+   "only_ours": 80,
+   "only_classla": 116,
+   "diff_pp": -0.315,
+   "ci95_pp": [
+    -0.555,
+    -0.075
+   ],
+   "tost_margin_pp": 0.5,
+   "tost_p": 0.06581,
+   "equivalent_at_margin": false
+  }
+ },
+ "ReLDI (Twitter)": {
+  "tokens": 9088,
+  "our_gold": 94.18,
+  "our_pred": 92.03,
+  "classla_standard": 94.37,
+  "gold_vs_classla": {
+   "p_exact": 0.4552,
+   "p_chi2": 0.4552,
+   "only_ours": 221,
+   "only_classla": 238,
+   "diff_pp": -0.187,
+   "ci95_pp": [
+    -0.649,
+    0.275
+   ],
+   "tost_margin_pp": 0.5,
+   "tost_p": 0.0922,
+   "equivalent_at_margin": false
+  },
+  "pred_vs_classla": {
+   "p_exact": 0.0,
+   "p_chi2": 0.0,
+   "only_ours": 168,
+   "only_classla": 380,
+   "diff_pp": -2.333,
+   "ci95_pp": [
+    -2.835,
+    -1.83
+   ],
+   "tost_margin_pp": 0.5,
+   "tost_p": 1.0,
+   "equivalent_at_margin": false
+  },
+  "classla_nonstandard": 95.75,
+  "gold_vs_classla_ns": {
+   "p_exact": 0.0,
+   "p_chi2": 0.0,
+   "only_ours": 138,
+   "only_classla": 281,
+   "diff_pp": -1.574,
+   "ci95_pp": [
+    -2.014,
+    -1.133
+   ],
+   "tost_margin_pp": 0.5,
+   "tost_p": 1.0,
+   "equivalent_at_margin": false
+  },
+  "pred_vs_classla_ns": {
+   "p_exact": 0.0,
+   "p_chi2": 0.0,
+   "only_ours": 108,
+   "only_classla": 446,
+   "diff_pp": -3.719,
+   "ci95_pp": [
+    -4.221,
+    -3.217
+   ],
+   "tost_margin_pp": 0.5,
+   "tost_p": 1.0,
+   "equivalent_at_margin": false
+  }
+ },
+ "SrpKor (lit+admin)": {
+  "tokens": 29276,
+  "our_gold": 88.4,
+  "our_pred": 87.75,
+  "classla_standard": 88.22,
+  "gold_vs_classla": {
+   "p_exact": 0.1182,
+   "p_chi2": 0.1183,
+   "only_ours": 559,
+   "only_classla": 507,
+   "diff_pp": 0.178,
+   "ci95_pp": [
+    -0.041,
+    0.396
+   ],
+   "tost_margin_pp": 0.5,
+   "tost_p": 0.00192,
+   "equivalent_at_margin": true
+  },
+  "pred_vs_classla": {
+   "p_exact": 0.0,
+   "p_chi2": 0.0,
+   "only_ours": 288,
+   "only_classla": 426,
+   "diff_pp": -0.471,
+   "ci95_pp": [
+    -0.65,
+    -0.293
+   ],
+   "tost_margin_pp": 0.5,
+   "tost_p": 0.37686,
+   "equivalent_at_margin": false
+  }
+ }
+}

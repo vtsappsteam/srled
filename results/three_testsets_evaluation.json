@@ -1,0 +1,27 @@
+{
+  "UD-SET (news)": {
+    "domain": "UD-SET (news)",
+    "tokens": 11421,
+    "our_gold": 98.48,
+    "our_pred": 98.13,
+    "classla": 98.39,
+    "p_value": 0.492672
+  },
+  "ReLDI (Twitter)": {
+    "domain": "ReLDI (Twitter)",
+    "tokens": 9088,
+    "our_gold": 94.43,
+    "our_pred": 93.29,
+    "classla": 94.37,
+    "p_value": 0.811631
+  },
+  "SrpKor (lit+admin)": {
+    "domain": "SrpKor (lit+admin)",
+    "tokens": 29276,
+    "our_gold": 88.95,
+    "our_pred": 88.31,
+    "classla": 88.22,
+    "p_value": 0.0
+  },
+  "_note": "Re-measured 17 Jul 2026 by final_system_eval.py: locked system (srwac_pnpa tagger + supplement v2 + 148 reviewed lemma corrections, Pn*/Pa*->P*). CLASSLA correctness vectors reused from scispace_pertoken.npz; p_value is the exact McNemar test (gold vs CLASSLA standard)."
+}

@@ -1,0 +1,18 @@
+{
+  "tokens": 9108,
+  "paper_denominator": 9088,
+  "F_correct_tokens": 8514,
+  "N_correct_tokens": 8547,
+  "F_stage3_pred": 93.48,
+  "N_classla_nonstandard": 93.84,
+  "F_paper_scale": 93.68,
+  "N_paper_scale": 94.05,
+  "gap_pp": 0.36,
+  "gap_pp_paper_scale": 0.36,
+  "mcnemar_F_vs_N": {
+    "p": 0.156013,
+    "F_only": 238,
+    "N_only": 271
+  },
+  "classla_output": "<PROJECT_ROOT>/Diacritics-Restoration/data/evaluation/classla_stripped_nonstd_test.tsv"
+}

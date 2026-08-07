@@ -1,0 +1,71 @@
+[
+  {
+    "config": "Full system (all layers)",
+    "accuracy": 98.48,
+    "delta": 0
+  },
+  {
+    "config": "- diacritics restoration",
+    "accuracy": 98.49,
+    "delta": 0.01,
+    "p_exact": 1.0,
+    "only_this": 1,
+    "only_full": 0
+  },
+  {
+    "config": "- POS information",
+    "accuracy": 98.21,
+    "delta": -0.27,
+    "p_exact": 0.0,
+    "only_this": 2,
+    "only_full": 32
+  },
+  {
+    "config": "- lemma corrections",
+    "accuracy": 97.65,
+    "delta": -0.83,
+    "p_exact": 0.0,
+    "only_this": 4,
+    "only_full": 98
+  },
+  {
+    "config": "- participle rule",
+    "accuracy": 98.48,
+    "delta": 0.0,
+    "p_exact": 1.0,
+    "only_this": 0,
+    "only_full": 0
+  },
+  {
+    "config": "- hteti rule",
+    "accuracy": 98.39,
+    "delta": -0.09,
+    "p_exact": 0.001953,
+    "only_this": 0,
+    "only_full": 10
+  },
+  {
+    "config": "- morph guesser",
+    "accuracy": 98.45,
+    "delta": -0.03,
+    "p_exact": 0.25,
+    "only_this": 0,
+    "only_full": 3
+  },
+  {
+    "config": "- expanded dictionary",
+    "accuracy": 98.23,
+    "delta": -0.25,
+    "p_exact": 0.000128,
+    "only_this": 12,
+    "only_full": 40
+  },
+  {
+    "config": "Bare dictionary (no POS, no rules)",
+    "accuracy": 97.32,
+    "delta": -1.16,
+    "p_exact": 0.0,
+    "only_this": 6,
+    "only_full": 138
+  }
+]

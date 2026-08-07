@@ -1,0 +1,234 @@
+{
+  "Frequency_SETimes (news)": {
+    "method": "Frequency",
+    "domain": "SETimes (news)",
+    "num_sentences": 3891,
+    "time_seconds": 0.61,
+    "word_accuracy": 96.32,
+    "total_words": 74731,
+    "correct_words": 71983,
+    "diac_word_accuracy": 91.57,
+    "total_diac_words": 12002,
+    "correct_diac_words": 10990,
+    "char_accuracy": 99.31,
+    "total_chars": 412469,
+    "diac_char_accuracy": 97.67,
+    "total_diac_chars": 12634,
+    "per_char_metrics": {
+      "č": {
+        "precision": 98.3,
+        "recall": 98.2,
+        "f1": 98.3,
+        "tp": 3155,
+        "fn": 58,
+        "fp": 53
+      },
+      "ć": {
+        "precision": 99.4,
+        "recall": 98.7,
+        "f1": 99.1,
+        "tp": 2416,
+        "fn": 32,
+        "fp": 14
+      },
+      "š": {
+        "precision": 99.5,
+        "recall": 97.6,
+        "f1": 98.6,
+        "tp": 3177,
+        "fn": 77,
+        "fp": 15
+      },
+      "ž": {
+        "precision": 99.5,
+        "recall": 98.9,
+        "f1": 99.2,
+        "tp": 2143,
+        "fn": 23,
+        "fp": 11
+      },
+      "đ": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1": 100.0,
+        "tp": 1243,
+        "fn": 0,
+        "fp": 0
+      }
+    }
+  },
+  "POS-Aware v6_SETimes (news)": {
+    "method": "POS-Aware v6",
+    "domain": "SETimes (news)",
+    "num_sentences": 3891,
+    "time_seconds": 16.4,
+    "word_accuracy": 99.56,
+    "total_words": 74731,
+    "correct_words": 74402,
+    "diac_word_accuracy": 97.93,
+    "total_diac_words": 12002,
+    "correct_diac_words": 11753,
+    "char_accuracy": 99.92,
+    "total_chars": 412470,
+    "diac_char_accuracy": 97.97,
+    "total_diac_chars": 12634,
+    "per_char_metrics": {
+      "č": {
+        "precision": 99.7,
+        "recall": 97.5,
+        "f1": 98.6,
+        "tp": 3132,
+        "fn": 81,
+        "fp": 8
+      },
+      "ć": {
+        "precision": 99.0,
+        "recall": 98.8,
+        "f1": 98.9,
+        "tp": 2418,
+        "fn": 30,
+        "fp": 24
+      },
+      "š": {
+        "precision": 100.0,
+        "recall": 97.3,
+        "f1": 98.6,
+        "tp": 3167,
+        "fn": 87,
+        "fp": 0
+      },
+      "ž": {
+        "precision": 100.0,
+        "recall": 99.1,
+        "f1": 99.6,
+        "tp": 2147,
+        "fn": 19,
+        "fp": 0
+      },
+      "đ": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1": 100.0,
+        "tp": 1243,
+        "fn": 0,
+        "fp": 0
+      }
+    }
+  },
+  "Frequency_ReLDI (Twitter)": {
+    "method": "Frequency",
+    "domain": "ReLDI (Twitter)",
+    "num_sentences": 6899,
+    "time_seconds": 0.46,
+    "word_accuracy": 90.34,
+    "total_words": 78112,
+    "correct_words": 70570,
+    "diac_word_accuracy": 87.1,
+    "total_diac_words": 7419,
+    "correct_diac_words": 6462,
+    "char_accuracy": 96.82,
+    "total_chars": 344076,
+    "diac_char_accuracy": 92.08,
+    "total_diac_chars": 7863,
+    "per_char_metrics": {
+      "č": {
+        "precision": 95.1,
+        "recall": 93.8,
+        "f1": 94.4,
+        "tp": 1623,
+        "fn": 108,
+        "fp": 84
+      },
+      "ć": {
+        "precision": 96.3,
+        "recall": 93.4,
+        "f1": 94.8,
+        "tp": 1344,
+        "fn": 95,
+        "fp": 51
+      },
+      "š": {
+        "precision": 96.5,
+        "recall": 94.5,
+        "f1": 95.5,
+        "tp": 2655,
+        "fn": 154,
+        "fp": 97
+      },
+      "ž": {
+        "precision": 97.1,
+        "recall": 98.1,
+        "f1": 97.6,
+        "tp": 1174,
+        "fn": 23,
+        "fp": 35
+      },
+      "đ": {
+        "precision": 98.5,
+        "recall": 98.5,
+        "f1": 98.5,
+        "tp": 331,
+        "fn": 5,
+        "fp": 5
+      }
+    }
+  },
+  "POS-Aware v6_ReLDI (Twitter)": {
+    "method": "POS-Aware v6",
+    "domain": "ReLDI (Twitter)",
+    "num_sentences": 6899,
+    "time_seconds": 17.78,
+    "word_accuracy": 92.72,
+    "total_words": 78112,
+    "correct_words": 72428,
+    "diac_word_accuracy": 93.66,
+    "total_diac_words": 7419,
+    "correct_diac_words": 6949,
+    "char_accuracy": 97.93,
+    "total_chars": 344077,
+    "diac_char_accuracy": 93.92,
+    "total_diac_chars": 7863,
+    "per_char_metrics": {
+      "č": {
+        "precision": 98.8,
+        "recall": 93.4,
+        "f1": 96.0,
+        "tp": 1616,
+        "fn": 115,
+        "fp": 19
+      },
+      "ć": {
+        "precision": 97.1,
+        "recall": 94.8,
+        "f1": 95.9,
+        "tp": 1364,
+        "fn": 75,
+        "fp": 41
+      },
+      "š": {
+        "precision": 99.7,
+        "recall": 93.8,
+        "f1": 96.7,
+        "tp": 2635,
+        "fn": 174,
+        "fp": 8
+      },
+      "ž": {
+        "precision": 99.7,
+        "recall": 97.7,
+        "f1": 98.7,
+        "tp": 1170,
+        "fn": 27,
+        "fp": 4
+      },
+      "đ": {
+        "precision": 99.4,
+        "recall": 98.8,
+        "f1": 99.1,
+        "tp": 332,
+        "fn": 4,
+        "fp": 2
+      }
+    }
+  }
+}

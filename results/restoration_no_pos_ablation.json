@@ -1,0 +1,16 @@
+{
+ "config": "full module, non-informative tagger (POS filtering and Np routing disabled; pattern rules, dominance-guard-independent frequency choice, and OOV resources retained)",
+ "word_accuracy": 99.56,
+ "diac_word_accuracy": 98.12,
+ "total_words": 74731,
+ "correct_words": 74402,
+ "stripped_reldi_test": {
+  "C_pos_guided": 94.78,
+  "CX_no_pos_restoration": 94.65,
+  "diff_pp": 0.13,
+  "mcnemar_p": 0.007538,
+  "pos_only_correct": 15,
+  "nopos_only_correct": 3,
+  "tokens": 9088
+ }
+}

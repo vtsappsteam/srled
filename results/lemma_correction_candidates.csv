@@ -1,0 +1,208 @@
+source_lemma,target_lemma,total,agreement,train_breaks_gold_eq_source,per_corpus_consistent,applied,in_manual_17,corpora,example_forms,gold_distribution
+krivični,krivičan,321,0.907,30,False,False,False,SET2_train_dev:16; SrpKor_train:291; UD_train:14,krivičnog krivično krivična krivičnim krivičnih,krivičan:291; krivični:30
+saveta,savet,292,1.0,0,True,True,False,SET2_train_dev:2; SrpKor_train:290,saveta,savet:292
+rada,rad,146,0.979,1,False,False,False,ReLDI_train:2; SET2_train_dev:1; SrpKor_train:142; UD_train:1,rada rade,rad:143; rade:2; rada:1
+beš,biti,111,1.0,0,True,True,False,ReLDI_train:1; SrpKor_train:110,beše,biti:111
+lokalni,lokalan,86,1.0,0,True,True,False,SrpKor_train:86,lokalni,lokalan:86
+upravan,upravni,80,1.0,0,True,True,False,SrpKor_train:80,upravnog upravnom upravnih upravne upravnim,upravni:80
+meri,mera,79,1.0,0,True,True,False,SrpKor_train:79,meri,mera:79
+razvojan,razvojni,55,0.945,3,False,False,False,ReLDI_train:1; SET2_train_dev:1; SrpKor_train:52; UD_train:1,razvojne razvojnih razvojnog razvojno razvojna,razvojni:52; razvojan:3
+kvaliteta,kvalitet,53,0.962,2,False,False,False,SET2_train_dev:1; SrpKor_train:51; UD_train:1,kvaliteta,kvalitet:51; kvaliteta:2
+kazo,kazati,51,1.0,0,True,True,False,ReLDI_train:51,kaze kazu,kazati:51
+ustava,ustav,51,1.0,0,True,True,False,SrpKor_train:51,ustava,ustav:51
+perioda,period,45,0.956,2,True,False,False,SrpKor_train:45,perioda periode,period:43; perioda:2
+ce,hteti,39,0.949,2,False,False,False,ReLDI_train:37; SrpKor_train:2,ce,hteti:37; ce:2
+regulatoran,regulatorni,38,0.947,2,False,False,False,SET2_train_dev:1; SrpKor_train:36; UD_train:1,regulatornog regulatorno regulatornim regulatorni regulatorne,regulatorni:36; regulatoran:2
+veka,vek,37,1.0,0,True,True,False,SrpKor_train:37,veka,vek:37
+okret,okrenuti,37,1.0,0,True,True,False,SrpKor_train:37,okrete,okrenuti:37
+porodični,porodičan,26,1.0,0,True,True,False,ReLDI_train:1; SET2_train_dev:6; SrpKor_train:18; UD_train:1,porodičnog porodične porodičnu porodičnom porodičnih,porodičan:26
+zen,žena,25,0.92,2,False,False,False,ReLDI_train:23; SET2_train_dev:1; UD_train:1,zene zena zenu,žena:23; zen:2
+određeno,odrediti,24,1.0,0,True,True,False,SrpKor_train:24,određeno,odrediti:24
+zabranjeno,zabraniti,24,1.0,0,True,True,False,SrpKor_train:24,zabranjeno,zabraniti:24
+ustavni,ustavan,23,1.0,0,True,True,False,SrpKor_train:23,ustavni,ustavan:23
+jelen,jelena,22,0.909,2,False,False,False,ReLDI_train:11; SET2_train_dev:5; SrpKor_train:1; UD_train:5,jelena jelene jelen,jelena:20; jelen:2
+konsultacije,konsultacija,21,1.0,0,True,True,False,SET2_train_dev:4; SrpKor_train:13; UD_train:4,konsultacije konsultacija konsultacijama,konsultacija:21
+proliti,prol,20,0.95,1,False,False,False,ReLDI_train:1; SrpKor_train:19,proli prolice,prol:19; proliti:1
+dotičan,dotični,20,0.95,1,False,False,False,ReLDI_train:1; SrpKor_train:19,dotičnih dotične dotičnu dotična dotičnog,dotični:19; dotičan:1
+udel,udeo,19,1.0,0,True,True,False,SET2_train_dev:4; SrpKor_train:11; UD_train:4,udela udelom udelu,udeo:19
+držeći,držati,19,1.0,0,True,True,False,SrpKor_train:19,držeći,držati:19
+fehmi,fehmiju,18,1.0,0,True,True,False,SET2_train_dev:9; UD_train:9,fehmiju,fehmiju:18
+iva,ivo,17,1.0,0,True,True,False,ReLDI_train:1; SET2_train_dev:8; SrpKor_train:1; UD_train:7,ivo ive ivom,ivo:17
+jbt,jebote,17,1.0,0,True,True,False,ReLDI_train:17,jbt,jebote:17
+stočni,stočan,17,1.0,0,True,True,False,SrpKor_train:17,stočne stočnih stočna stočnim stočnu,stočan:17
+min,min.,16,0.938,0,True,False,False,ReLDI_train:16,min,min.:15; ministarstvo:1
+izvršeno,izvršiti,16,1.0,0,True,True,False,SrpKor_train:16,izvršeno,izvršiti:16
+ček,čeku,15,0.933,1,False,False,False,ReLDI_train:1; SET2_train_dev:7; UD_train:7,čeku ček,čeku:14; ček:1
+kapitalist,kapitalista,15,0.933,1,True,False,False,SrpKor_train:15,kapitalisti kapitalista kapitalistu kapitalistom,kapitalista:14; kapitalist:1
+stola,sto,15,1.0,0,True,True,False,SrpKor_train:15,stola,sto:15
+slobodana,slobodan,14,1.0,0,True,True,False,SET2_train_dev:5; SrpKor_train:4; UD_train:5,slobodana slobodanom,slobodan:14
+uveden,uvesti,14,1.0,0,True,True,False,SET2_train_dev:1; SrpKor_train:13,uvedena uvedene uveden uvedeni,uvesti:14
+prosvetan,prosvetni,13,0.923,1,False,False,False,ReLDI_train:1; SrpKor_train:12,prosvetni prosvetnih prosvetne prosvetnim prosvetno,prosvetni:12; prosvetan:1
+vagati,važiti,13,0.923,1,False,False,False,ReLDI_train:1; SrpKor_train:12,važe vagamo,važiti:12; vagati:1
+telekomunikacije,telekomunikacija,13,1.0,0,True,True,False,SrpKor_train:13,telekomunikacije,telekomunikacija:13
+ini,ina,12,1.0,0,True,True,False,SET2_train_dev:6; UD_train:6,ina ine,ina:12
+štiti,štititi,12,1.0,0,True,True,False,SrpKor_train:12,štiti,štititi:12
+tarifan,tarifni,12,1.0,0,True,True,False,SrpKor_train:12,tarifnog tarifne tarifnom tarifnu,tarifni:12
+hahaha,haha,11,1.0,0,True,True,False,ReLDI_train:11,hahaha,haha:11
+kiso,kiša,11,1.0,0,True,True,False,ReLDI_train:11,kisa kisu kisi,kiša:11
+ajde,hajde,11,1.0,0,True,True,False,ReLDI_train:11,ajde,hajde:11
+pravi,prav,11,1.0,0,True,True,False,SrpKor_train:11,pravi,prav:11
+salo,sala,10,0.9,1,True,False,False,ReLDI_train:2; SET2_train_dev:2; SrpKor_train:4; UD_train:2,salu sala,sala:9; salo:1
+ces,hteti,10,1.0,0,True,True,False,ReLDI_train:10,ces,hteti:10
+nadj,naći,10,1.0,0,True,True,False,ReLDI_train:10,nadjem nadju,naći:10
+orentacija,orijentacija,10,0.9,1,False,False,False,ReLDI_train:1; SrpKor_train:9,orijentaciju orijentacija orijentacije orijentacijom,orijentacija:9; orentacija:1
+prioritetni,prioritetan,10,1.0,0,True,True,False,SrpKor_train:10,prioritetnih prioritetnu prioritetne prioritetnog prioritetnim,prioritetan:10
+cene,cena,10,1.0,0,True,True,False,SrpKor_train:10,cene,cena:10
+fronta,front,10,1.0,0,True,True,False,SrpKor_train:10,frontu fronta,front:10
+dozvoljeno,dozvoliti,10,1.0,0,True,True,False,SrpKor_train:10,dozvoljeno,dozvoliti:10
+prethodni,prethodan,10,1.0,0,True,True,False,SrpKor_train:10,prethodni,prethodan:10
+premerka,premijerka,9,1.0,0,True,True,False,SET2_train_dev:6; UD_train:3,premijerka,premijerka:9
+noci,noć,9,1.0,0,True,True,False,ReLDI_train:9,noci,noć:9
+skol,škola,9,1.0,0,True,True,False,ReLDI_train:9,skoli skola skolom skolu,škola:9
+doci,doći,9,1.0,0,True,True,False,ReLDI_train:9,doci,doći:9
+privatni,privatan,9,1.0,0,True,True,False,SrpKor_train:9,privatni,privatan:9
+unesti,uneti,9,1.0,0,True,True,False,SrpKor_train:9,unesu unese unesoše,uneti:9
+trac,traka,8,1.0,0,True,True,False,SET2_train_dev:4; UD_train:4,traci,traka:8
+nadgledi,nadgledati,8,1.0,0,True,True,False,SET2_train_dev:3; SrpKor_train:3; UD_train:2,nadgleda,nadgledati:8
+proseka,prosek,8,1.0,0,True,True,False,SET2_train_dev:2; SrpKor_train:4; UD_train:2,proseka proseku,prosek:8
+fax,faks,8,1.0,0,True,True,False,ReLDI_train:8,fax faxu faxa faxove,faks:8
+mrs,mrš,8,1.0,0,True,True,False,ReLDI_train:8,mrs,mrš:8
+navedeno,navesti,8,1.0,0,True,True,False,SrpKor_train:8,navedeno,navesti:8
+početni,početan,8,1.0,0,True,True,False,SrpKor_train:8,početni,početan:8
+rotar,rotaru,8,1.0,0,True,True,False,SrpKor_train:8,rotaru,rotaru:8
+strani,stran,8,1.0,0,True,True,False,SrpKor_train:8,strani,stran:8
+nozi,noga,8,1.0,0,True,True,False,SrpKor_train:8,nozi,noga:8
+baćo,baća,8,1.0,0,True,True,False,SrpKor_train:8,baćo,baća:8
+banje,banja,7,1.0,0,True,True,False,ReLDI_train:1; SET2_train_dev:3; UD_train:3,banje,banja:7
+sejdi,sejdiju,7,1.0,0,True,True,False,SET2_train_dev:5; UD_train:2,sejdiju,sejdiju:7
+mastiti,mastilo,7,1.0,0,True,True,False,ReLDI_train:1; SrpKor_train:6,mastilo mastila,mastilo:7
+pick,pička,7,1.0,0,True,True,False,ReLDI_train:7,picku picka,pička:7
+troškovan,troškovni,7,1.0,0,True,True,False,SrpKor_train:7,troškovnom troškovnu troškovno,troškovni:7
+avgusta,avgust,7,1.0,0,True,True,False,SrpKor_train:7,avgusta,avgust:7
+životni,životan,7,1.0,0,True,True,False,SrpKor_train:7,životni,životan:7
+dotaći,dotaknuti,7,1.0,0,True,True,False,SrpKor_train:7,dotakao dotakla dotaći dotakle dotakne,dotaknuti:7
+nanizati,naniže,7,1.0,0,True,True,False,SrpKor_train:7,naniže,naniže:7
+leka,lek,7,1.0,0,True,True,False,SrpKor_train:7,leka,lek:7
+prole,prol,7,1.0,0,True,True,False,SrpKor_train:7,prole,prol:7
+flaš,flaša,6,1.0,0,True,True,False,ReLDI_train:3; SET2_train_dev:1; SrpKor_train:1; UD_train:1,flaše flašu flaša,flaša:6
+brđanin,brđani,6,1.0,0,True,True,False,SET2_train_dev:3; UD_train:3,brđani,brđani:6
+klinc,klinac,6,1.0,0,True,True,False,ReLDI_train:6,klinca klinci klince,klinac:6
+zele,želeti,6,1.0,0,True,True,False,ReLDI_train:6,zele,želeti:6
+zenski,ženski,6,1.0,0,True,True,False,ReLDI_train:6,zensko zenskih zenska zensku zenske,ženski:6
+zelje,želja,6,1.0,0,True,True,False,ReLDI_train:6,zelju zelja,želja:6
+skole,škola,6,1.0,0,True,True,False,ReLDI_train:6,skole,škola:6
+skratiti,skraćen,6,1.0,0,True,True,False,SrpKor_train:6,skraćeni skraćenom skraćenog,skraćen:6
+naglašeno,naglasiti,6,1.0,0,True,True,False,SrpKor_train:6,naglašeno,naglasiti:6
+naslonjač,naslonjača,6,1.0,0,True,True,False,SrpKor_train:6,naslonjaču naslonjače naslonjača naslonjači,naslonjača:6
+tržiti,trgnuti,6,1.0,0,True,True,False,SrpKor_train:6,trže,trgnuti:6
+decentralizovati,decentralizovan,6,1.0,0,True,True,False,SrpKor_train:6,decentralizovana decentralizovane decentralizovanoj decentralizovanim decentralizovanog,decentralizovan:6
+naviti,naviše,6,1.0,0,True,True,False,SrpKor_train:6,naviše,naviše:6
+stadeti,stati,6,1.0,0,True,True,False,SrpKor_train:6,stade,stati:6
+lučan,lučani,6,1.0,0,True,True,False,SrpKor_train:6,lučani lučanima,lučani:6
+lampe,lampa,6,1.0,0,True,True,False,SrpKor_train:6,lampe,lampa:6
+kamatan,kamatni,5,1.0,0,True,True,False,SET2_train_dev:1; SrpKor_train:3; UD_train:1,kamatne kamatnu,kamatni:5
+onolik,onoliki,5,1.0,0,True,True,False,SET2_train_dev:1; SrpKor_train:3; UD_train:1,onolika onoliko onolikog,onoliki:5
+davan,davni,5,1.0,0,True,True,False,SET2_train_dev:1; SrpKor_train:3; UD_train:1,davne davnog davnih davnim,davni:5
+moras,morati,5,1.0,0,True,True,False,ReLDI_train:5,moras,morati:5
+cek,čekati,5,1.0,0,True,True,False,ReLDI_train:5,ceka cek,čekati:5
+pustati,puštati,5,1.0,0,True,True,False,ReLDI_train:5,pusta pustali pustao,puštati:5
+mack,mačka,5,1.0,0,True,True,False,ReLDI_train:5,macka macku macke,mačka:5
+cuja,čuti,5,1.0,0,True,True,False,ReLDI_train:5,cuje cuju,čuti:5
+prostoran,prostorni,5,1.0,0,True,True,False,SrpKor_train:5,prostorne prostorna prostornog,prostorni:5
+saviti,savijen,5,1.0,0,True,True,False,SrpKor_train:5,savijene savijenoj savijen savijena,savijen:5
+obrati,obratiti,5,1.0,0,True,True,False,SrpKor_train:5,obrati,obratiti:5
+ogrubeti,ogrubeo,5,1.0,0,True,True,False,SrpKor_train:5,ogrubela ogrubelo ogrubeli,ogrubeo:5
+toka,tok,5,1.0,0,True,True,False,SrpKor_train:5,toka,tok:5
+pretrpati,pretrpan,5,1.0,0,True,True,False,SrpKor_train:5,pretrpanoj pretrpana pretrpanu pretrpanim,pretrpan:5
+vida,vid,5,1.0,0,True,True,False,SrpKor_train:5,vida,vid:5
+leja,lej,5,1.0,0,True,True,False,SrpKor_train:5,leja leje,lej:5
+sadržano,sadržati,5,1.0,0,True,True,False,SrpKor_train:5,sadržano,sadržati:5
+međukulturni,međukulturan,5,1.0,0,True,True,False,SrpKor_train:5,međukulturnog međukulturnoj međukulturnih,međukulturan:5
+ivanka,ivanko,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,ivanko,ivanko:4
+božinovski,božinovska,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,božinovske,božinovska:4
+slevati,sleva,4,1.0,0,True,False,False,SET2_train_dev:2; SrpKor_train:1; UD_train:1,sleva,sleva:4
+čuma,čumi,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,čumi,čumi:4
+markovićev,markovićeva,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,markovićevoj markovićeve,markovićeva:4
+manev,maneva,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,maneva,maneva:4
+maria,mario,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,mario,mario:4
+ustaliti,ustaljen,4,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:2; UD_train:1,ustaljeno ustaljenu,ustaljen:4
+italo,ital,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,itala,ital:4
+haraći,haraćija,4,1.0,0,True,False,False,SET2_train_dev:4,haraćija haraćiju,haraćija:4
+tesko,teško,4,1.0,0,True,False,False,ReLDI_train:4,tesko,teško:4
+loza,ložiti,4,1.0,0,True,False,False,ReLDI_train:4,lozi loze,ložiti:4
+sluz,služiti,4,1.0,0,True,False,False,ReLDI_train:4,sluzi,služiti:4
+zela,želeti,4,1.0,0,True,False,False,ReLDI_train:4,zeli zelom,želeti:4
+vaza,važiti,4,1.0,0,True,False,False,ReLDI_train:4,vazi,važiti:4
+dusan,dušan,4,1.0,0,True,False,False,ReLDI_train:4,dusan dusana dusanu,dušan:4
+vasa,vaš,4,1.0,0,True,False,False,ReLDI_train:4,vasa vasom vasu,vaš:4
+solje,šolja,4,1.0,0,True,False,False,ReLDI_train:4,solji solje,šolja:4
+napis,napisati,4,1.0,0,True,False,False,ReLDI_train:4,napise napisi napisu,napisati:4
+cesta,često,4,1.0,0,True,False,False,ReLDI_train:4,cesto,često:4
+cep,čep,4,1.0,0,True,False,False,ReLDI_train:4,cepovi cepova,čep:4
+taka,takav,4,1.0,0,True,False,False,ReLDI_train:1; SrpKor_train:3,taki take,takav:4
+podrazumevajući,podrazumevati,4,1.0,0,True,False,False,SrpKor_train:4,podrazumevajući,podrazumevati:4
+transnacionalan,transnacionalni,4,1.0,0,True,False,False,SrpKor_train:4,transnacionalnog transnacionalnom,transnacionalni:4
+objavljeno,objaviti,4,1.0,0,True,False,False,SrpKor_train:4,objavljeno,objaviti:4
+rastaliti,rastati,4,1.0,0,True,False,False,SrpKor_train:4,rastali,rastati:4
+trći,trgnuti,4,1.0,0,True,False,False,SrpKor_train:4,trgao trgavši trgli trgoše,trgnuti:4
+kolektivni,kolektivan,4,1.0,0,True,False,False,SrpKor_train:4,kolektivni,kolektivan:4
+pomaći,pomaknuti,4,1.0,0,True,False,False,SrpKor_train:4,pomakoše pomače pomakao pomaći,pomaknuti:4
+razlegati,razlegnuti,4,1.0,0,True,False,False,SrpKor_train:4,razleže,razlegnuti:4
+polazan,polazni,4,1.0,0,True,False,False,SrpKor_train:4,polazne polaznih polazna,polazni:4
+kadrov,kadar,4,1.0,0,True,False,False,SrpKor_train:4,kadrova,kadar:4
+četvero,četvoro,4,1.0,0,True,False,False,SrpKor_train:4,četvoro,četvoro:4
+mentalni,mentalan,4,1.0,0,True,False,False,SrpKor_train:4,mentalni,mentalan:4
+rubalj,rublje,4,1.0,0,True,False,False,SrpKor_train:4,rublja,rublje:4
+petra,petar,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,petrom,petar:3
+paol,paolo,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,paolu,paolo:3
+deči,dečiji,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,dečije dečiji,dečiji:3
+preselenje,preseljenje,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,preseljenje preseljenja,preseljenje:3
+izraženiji,izražen,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,izraženijim izraženije,izražen:3
+bitak,bitka,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,bitaka bici,bitka:3
+zaledeti,zalediti,3,1.0,0,True,False,False,ReLDI_train:1; SET2_train_dev:1; UD_train:1,zaleđenom zaleđene,zalediti:3
+cina,činiti,3,1.0,0,True,False,False,ReLDI_train:3,cini cine,činiti:3
+genije,genij,3,1.0,0,True,False,False,ReLDI_train:3,genije genijima geniji,genij:3
+dinkica,dinkić,3,1.0,0,True,False,False,ReLDI_train:3,dinkica dinkicu,dinkić:3
+salja,slati,3,1.0,0,True,False,False,ReLDI_train:3,salje salju,slati:3
+jutjub,youtube,3,1.0,0,True,False,False,ReLDI_train:3,jutjub jutjubu,youtube:3
+tica,ticati,3,1.0,0,True,False,False,ReLDI_train:3,tice,ticati:3
+culi,čuti,3,1.0,0,True,False,False,ReLDI_train:3,culi,čuti:3
+tudja,tuđ,3,1.0,0,True,False,False,ReLDI_train:3,tudje,tuđ:3
+veronauk,veronauka,3,1.0,0,True,False,False,ReLDI_train:3,veronauke,veronauka:3
+saban,šaban,3,1.0,0,True,False,False,ReLDI_train:3,sabana,šaban:3
+cita,čitati,3,1.0,0,True,False,False,ReLDI_train:3,cita,čitati:3
+sansa,šansa,3,1.0,0,True,False,False,ReLDI_train:3,sanse sansa,šansa:3
+milos,miloš,3,1.0,0,True,False,False,ReLDI_train:3,milos,miloš:3
+siriti,širiti,3,1.0,0,True,False,False,ReLDI_train:3,siri sire,širiti:3
+izaslati,izaći,3,1.0,0,True,False,False,ReLDI_train:3,izasla,izaći:3
+kolja,klati,3,1.0,0,True,False,False,ReLDI_train:2; SrpKor_train:1,kolje kolju,klati:3
+dada,dado,3,1.0,0,True,False,False,ReLDI_train:2; SrpKor_train:1,dado dadom,dado:3
+strastan,strašan,3,1.0,0,True,False,False,ReLDI_train:3,strasno strasna,strašan:3
+lava,lav,3,1.0,0,True,False,False,ReLDI_train:1; SrpKor_train:2,lave lavi lava,lav:3
+mlrd,milijarda,3,1.0,0,True,False,False,ReLDI_train:3,mlrd,milijarda:3
+hut,huti,3,1.0,0,True,False,False,ReLDI_train:3,huta huti,huti:3
+cipov,čip,3,1.0,0,True,False,False,ReLDI_train:3,cipovi,čip:3
+zasnovano,zasnovati,3,1.0,0,True,False,False,SrpKor_train:3,zasnovano,zasnovati:3
+ograničavajući,ograničavati,3,1.0,0,True,False,False,SrpKor_train:3,ograničavajući,ograničavati:3
+belic,belica,3,1.0,0,True,False,False,SrpKor_train:3,belica,belica:3
+opovrći,opovrgnuti,3,1.0,0,True,False,False,SrpKor_train:3,opovrgne opovrgnu,opovrgnuti:3
+uvet,uvo,3,1.0,0,True,False,False,SrpKor_train:3,uveta uvetom,uvo:3
+ćuteći,ćutati,3,1.0,0,True,False,False,SrpKor_train:3,ćuteći,ćutati:3
+gustin,gustina,3,1.0,0,True,False,False,SrpKor_train:3,gustinu gustina gustine,gustina:3
+izvršni,izvršan,3,1.0,0,True,False,False,SrpKor_train:3,izvršni,izvršan:3
+podleći,podlegnuti,3,1.0,0,True,False,False,SrpKor_train:3,podlegne podlegli,podlegnuti:3
+proglašeno,proglasiti,3,1.0,0,True,False,False,SrpKor_train:3,proglašeno,proglasiti:3
+stažist,stažista,3,1.0,0,True,False,False,SrpKor_train:3,stažista,stažista:3
+postavljeno,postaviti,3,1.0,0,True,False,False,SrpKor_train:3,postavljeno,postaviti:3
+temama,tema,3,1.0,0,True,False,False,SrpKor_train:3,temama,tema:3
+čeličan,čelični,3,1.0,0,True,False,False,SrpKor_train:3,čeličnih čeličnim,čelični:3
+kuka,kuk,3,1.0,0,True,False,False,SrpKor_train:3,kuka,kuk:3
+diferencirati,diferenciran,3,1.0,0,True,False,False,SrpKor_train:3,diferencirani diferencirane,diferenciran:3
+ugovornik,ugovornica,3,1.0,0,True,False,False,SrpKor_train:3,ugovornici,ugovornica:3
+akreditovati,akreditovan,3,1.0,0,True,False,False,SrpKor_train:3,akreditovanih akreditovanu akreditovanog,akreditovan:3
+srednjoročni,srednjoročan,3,1.0,0,True,False,False,SrpKor_train:3,srednjoročnom srednjoročna,srednjoročan:3
+europa,europe,3,1.0,0,True,False,False,SrpKor_train:3,europe,europe:3
+prvostepen,prvostepeni,3,1.0,0,True,False,False,SrpKor_train:3,prvostepenom prvostepeni prvostepenog,prvostepeni:3
+toplice,toplica,3,1.0,0,True,False,False,SrpKor_train:3,toplica,toplica:3
+venerični,venerican,3,1.0,0,True,False,False,SrpKor_train:3,venerične veneričnim,venerican:3
+nelica,nelice,3,1.0,0,True,False,False,SrpKor_train:3,nelica,nelice:3

@@ -1,0 +1,26 @@
+Verification workload: 1056 sentences, 23,414 tokens (test+dev)
+
+Loading in-memory lemmatizer (reference)...
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 12.7s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+  Loaded in 37s
+Building compact lexicon...
+  Built in 15s: 1,862,955 words, 174,890 lemmas, 931 MSDs
+Building compact v6 diacritics tables...
+  Built in 7s: 1,332,784 ascii keys, 1,869,243 words, 749 MSDs
+  Size on disk: 105 MB
+
+Loading compact lemmatizer...
+  Loaded in 0.07s
+
+Verifying identity on gold MSD tags...
+
+Identity: 23414/23414 (PASS)
+Reference:  973,901 tok/s
+Compact:    315,384 tok/s

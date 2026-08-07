@@ -1,0 +1,36 @@
+Učitavanje lematizatora (srLex + expanded supplement)...
+Using the latest cached version of the dataset since jerteh/SrpKor4Tagging couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at ~/.cache/huggingface/datasets/jerteh___srp_kor4_tagging/default/0.0.0/4f853353dd34825e52c08114ed8d30d6ffbb1a9b (last modified on Wed Jul  8 14:07:38 2026).
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 14.2s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +7,893 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+
+--- Tager v7: učitavanje perceptron-tagger-expanded.pickle...
+  UD-SET (news): {'pos_accuracy': 98.49, 'pnpa_predictions': 357, 'msd_accuracy_own_gold': 90.98, 'msd_accuracy_pnpa_normalized': 93.73} | lema 98.07% (raw feed 98.07%)
+  ReLDI (Twitter): {'pos_accuracy': 92.11, 'pnpa_predictions': 631, 'msd_accuracy_own_gold': 80.25, 'msd_accuracy_pnpa_normalized': 85.56} | lema 92.03% (raw feed 92.03%)
+  SrpKor (lit+admin): {'pos_accuracy': 90.79, 'pnpa_predictions': 1583} | lema 87.75% (raw feed 87.75%)
+
+--- Tager gold_only: učitavanje perceptron-tagger-gold-only.pickle...
+  UD-SET (news): {'pos_accuracy': 96.91, 'pnpa_predictions': 0, 'msd_accuracy_own_gold': 89.59, 'msd_accuracy_pnpa_normalized': 89.59} | lema 97.83% (raw feed 97.83%)
+  ReLDI (Twitter): {'pos_accuracy': 91.29, 'pnpa_predictions': 0, 'msd_accuracy_own_gold': 81.8, 'msd_accuracy_pnpa_normalized': 81.8} | lema 92.67% (raw feed 92.67%)
+  SrpKor (lit+admin): {'pos_accuracy': 87.15, 'pnpa_predictions': 0} | lema 87.39% (raw feed 87.39%)
+
+--- Tager srwac_pnpa: učitavanje perceptron-tagger-srwac-pnpa.pickle...
+  UD-SET (news): {'pos_accuracy': 98.49, 'pnpa_predictions': 581, 'msd_accuracy_own_gold': 93.77, 'msd_accuracy_pnpa_normalized': 93.81} | lema 98.11% (raw feed 98.09%)
+  ReLDI (Twitter): {'pos_accuracy': 92.17, 'pnpa_predictions': 982, 'msd_accuracy_own_gold': 85.5, 'msd_accuracy_pnpa_normalized': 85.62} | lema 93.05% (raw feed 92.04%)
+  SrpKor (lit+admin): {'pos_accuracy': 90.81, 'pnpa_predictions': 2628} | lema 87.71% (raw feed 87.73%)
+
+--- Tager gold_only_pnpa: učitavanje perceptron-tagger-gold-only-pnpa.pickle...
+  UD-SET (news): {'pos_accuracy': 96.91, 'pnpa_predictions': 583, 'msd_accuracy_own_gold': 89.53, 'msd_accuracy_pnpa_normalized': 89.54} | lema 97.83% (raw feed 97.79%)
+  ReLDI (Twitter): {'pos_accuracy': 91.04, 'pnpa_predictions': 983, 'msd_accuracy_own_gold': 82.04, 'msd_accuracy_pnpa_normalized': 82.06} | lema 92.68% (raw feed 91.78%)
+  SrpKor (lit+admin): {'pos_accuracy': 87.3, 'pnpa_predictions': 2634} | lema 87.35% (raw feed 87.36%)
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/pnpa_2x2_experiment.json
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/pnpa_2x2_experiment.json
+  checkpoint: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/pnpa_2x2_experiment.json
+
+GOTOVO. Sanity: PASS

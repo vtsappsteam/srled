@@ -1,0 +1,208 @@
+source_lemma,target_lemma,total,agreement,train_breaks_gold_eq_source,per_corpus_consistent,applied,in_manual_17,corpora,example_forms,gold_distribution,ODLUKA,NAPOMENA
+krivični,krivičan,321,0.907,30,False,False,False,SET2_train_dev:16; SrpKor_train:291; UD_train:14,krivičnog krivično krivična krivičnim krivičnih,krivičan:291; krivični:30,ne,"agreement 0.907, 30 breaks; 'krivični zakonik/postupak' ustaljeni termini, anotatori se kolebaju"
+saveta,savet,292,1.0,0,True,True,False,SET2_train_dev:2; SrpKor_train:290,saveta,savet:292,da,"čist padežni artefakt (genitiv), 'saveta' nije lema"
+rada,rad,146,0.979,1,False,False,False,ReLDI_train:2; SET2_train_dev:1; SrpKor_train:142; UD_train:1,rada rade,rad:143; rade:2; rada:1,ne,Rada je žensko ime
+beš,biti,111,1.0,0,True,True,False,ReLDI_train:1; SrpKor_train:110,beše,biti:111,da,'beš' nije srpska lema (beše -> biti)
+lokalni,lokalan,86,1.0,0,True,True,False,SrpKor_train:86,lokalni,lokalan:86,da,"vid prideva; gold jednoglasno lokalan (86/86), 0 breaks"
+upravan,upravni,80,1.0,0,True,True,False,SrpKor_train:80,upravnog upravnom upravnih upravne upravnim,upravni:80,da,gold jednoglasno upravni (80/80); 'upravan' (=normalan na ravan) izuzetno redak u ovim korpusima
+meri,mera,79,1.0,0,True,True,False,SrpKor_train:79,meri,mera:79,ne,Meri je ime
+razvojan,razvojni,55,0.945,3,False,False,False,ReLDI_train:1; SET2_train_dev:1; SrpKor_train:52; UD_train:1,razvojne razvojnih razvojnog razvojno razvojna,razvojni:52; razvojan:3,ne,"agreement 0.945 < 0.95, gold se koleba (52:3)"
+kvaliteta,kvalitet,53,0.962,2,False,False,False,SET2_train_dev:1; SrpKor_train:51; UD_train:1,kvaliteta,kvalitet:51; kvaliteta:2,da,kroatizam (kvaliteta f.) -> srpski kvalitet; agreement 0.962
+kazo,kazati,51,1.0,0,True,True,False,ReLDI_train:51,kaze kazu,kazati:51,da,nije lema (kazao -> kazati)
+ustava,ustav,51,1.0,0,True,True,False,SrpKor_train:51,ustava,ustav:51,da,padežni artefakt; 'ustava' (brana) izuzetno retko (obično 'brana/ustava' tehnički raritet)
+perioda,period,45,0.956,2,True,False,False,SrpKor_train:45,perioda periode,period:43; perioda:2,da,"padežni artefakt/kroatizam; agreement 0.956, gold 43:2"
+ce,hteti,39,0.949,2,False,False,False,ReLDI_train:37; SrpKor_train:2,ce,hteti:37; ce:2,ne,gold 2x traži baš 'ce' (naziv slova C); agreement 0.949 < 0.95
+regulatoran,regulatorni,38,0.947,2,False,False,False,SET2_train_dev:1; SrpKor_train:36; UD_train:1,regulatornog regulatorno regulatornim regulatorni regulatorne,regulatorni:36; regulatoran:2,ne,"agreement 0.947 < 0.95, gold se koleba"
+veka,vek,37,1.0,0,True,True,False,SrpKor_train:37,veka,vek:37,da,"padežni artefakt, nije lema"
+okret,okrenuti,37,1.0,0,True,True,False,SrpKor_train:37,okrete,okrenuti:37,ne,'okret' je legitimna imenica (pun okret)
+porodični,porodičan,26,1.0,0,True,True,False,ReLDI_train:1; SET2_train_dev:6; SrpKor_train:18; UD_train:1,porodičnog porodične porodičnu porodičnom porodičnih,porodičan:26,da,"gold jednoglasno porodičan (26/26), 0 breaks, sva 4 korpusa"
+zen,žena,25,0.92,2,False,False,False,ReLDI_train:23; SET2_train_dev:1; UD_train:1,zene zena zenu,žena:23; zen:2,ne,'zen' je legitimna lema (zen budizam); agreement 0.92
+određeno,odrediti,24,1.0,0,True,True,False,SrpKor_train:24,određeno,odrediti:24,da,"particip -> infinitiv, gold jednoglasno (24/24)"
+zabranjeno,zabraniti,24,1.0,0,True,True,False,SrpKor_train:24,zabranjeno,zabraniti:24,da,"particip -> infinitiv, gold jednoglasno (24/24)"
+ustavni,ustavan,23,1.0,0,True,True,False,SrpKor_train:23,ustavni,ustavan:23,da,"gold jednoglasno ustavan (23/23), 0 breaks"
+jelen,jelena,22,0.909,2,False,False,False,ReLDI_train:11; SET2_train_dev:5; SrpKor_train:1; UD_train:5,jelena jelene jelen,jelena:20; jelen:2,ne,'jelen' je obična imenica - globalna zamena bi kvarila svako pominjanje jelena
+konsultacije,konsultacija,21,1.0,0,True,True,False,SET2_train_dev:4; SrpKor_train:13; UD_train:4,konsultacije konsultacija konsultacijama,konsultacija:21,da,"gold jednoglasno singularizuje (21/21), tri korpusa"
+proliti,prol,20,0.95,1,False,False,False,ReLDI_train:1; SrpKor_train:19,proli prolice,prol:19; proliti:1,ne,'proliti' je legitiman čest glagol (proliti krv)
+dotičan,dotični,20,0.95,1,False,False,False,ReLDI_train:1; SrpKor_train:19,dotičnih dotične dotičnu dotična dotičnog,dotični:19; dotičan:1,ne,"gold se koleba (19:1), 'dotičan' postoji u rečnicima"
+udel,udeo,19,1.0,0,True,True,False,SET2_train_dev:4; SrpKor_train:11; UD_train:4,udela udelom udelu,udeo:19,da,kroatizam (udjel) -> srpski udeo
+držeći,držati,19,1.0,0,True,True,False,SrpKor_train:19,držeći,držati:19,da,"glagolski prilog -> infinitiv, gold jednoglasno (19/19)"
+fehmi,fehmiju,18,1.0,0,True,True,False,SET2_train_dev:9; UD_train:9,fehmiju,fehmiju:18,da,"gold jednoglasno fehmiju (18/18, srpska transkripcija prezimena Fehmiu)"
+iva,ivo,17,1.0,0,True,True,False,ReLDI_train:1; SET2_train_dev:8; SrpKor_train:1; UD_train:7,ivo ive ivom,ivo:17,ne,Iva je ime i vrsta vrbe
+jbt,jebote,17,1.0,0,True,True,False,ReLDI_train:17,jbt,jebote:17,da,"tviter-skraćenica, ReLDI gold jednoglasno širi (17/17)"
+stočni,stočan,17,1.0,0,True,True,False,SrpKor_train:17,stočne stočnih stočna stočnim stočnu,stočan:17,da,"gold jednoglasno stočan (17/17), 0 breaks"
+min,min.,16,0.938,0,True,False,False,ReLDI_train:16,min,min.:15; ministarstvo:1,ne,"skraćenica; gold se koleba (min.:15, ministarstvo:1), agreement 0.938"
+izvršeno,izvršiti,16,1.0,0,True,True,False,SrpKor_train:16,izvršeno,izvršiti:16,da,"particip -> infinitiv, gold jednoglasno"
+ček,čeku,15,0.933,1,False,False,False,ReLDI_train:1; SET2_train_dev:7; UD_train:7,čeku ček,čeku:14; ček:1,ne,'ček' je obična imenica (bankovni ček); meta je prezime Čeku
+kapitalist,kapitalista,15,0.933,1,True,False,False,SrpKor_train:15,kapitalisti kapitalista kapitalistu kapitalistom,kapitalista:14; kapitalist:1,ne,"agreement 0.933 < 0.95, gold jednom traži baš 'kapitalist'"
+stola,sto,15,1.0,0,True,True,False,SrpKor_train:15,stola,sto:15,da,"padežni artefakt (gen. od sto); 'stola' (odežda) raritet, standard je 'štola'"
+slobodana,slobodan,14,1.0,0,True,True,False,SET2_train_dev:5; SrpKor_train:4; UD_train:5,slobodana slobodanom,slobodan:14,da,"padežni artefakt imena, 'slobodana' nije lema"
+uveden,uvesti,14,1.0,0,True,True,False,SET2_train_dev:1; SrpKor_train:13,uvedena uvedene uveden uvedeni,uvesti:14,da,"particip -> infinitiv, gold jednoglasno (14/14)"
+prosvetan,prosvetni,13,0.923,1,False,False,False,ReLDI_train:1; SrpKor_train:12,prosvetni prosvetnih prosvetne prosvetnim prosvetno,prosvetni:12; prosvetan:1,ne,"agreement 0.923 < 0.95, gold se koleba"
+vagati,važiti,13,0.923,1,False,False,False,ReLDI_train:1; SrpKor_train:12,važe vagamo,važiti:12; vagati:1,ne,'vagati' je legitiman glagol (meriti na vagi)
+telekomunikacije,telekomunikacija,13,1.0,0,True,True,False,SrpKor_train:13,telekomunikacije,telekomunikacija:13,da,"singularizacija, gold jednoglasno (13/13)"
+ini,ina,12,1.0,0,True,True,False,SET2_train_dev:6; UD_train:6,ina ine,ina:12,da,arhaično 'ini' (=drugi) praktično mrtvo; gold jednoglasno ina (12/12)
+štiti,štititi,12,1.0,0,True,True,False,SrpKor_train:12,štiti,štititi:12,da,'štiti' nije lema (3.l.jd. od štititi)
+tarifan,tarifni,12,1.0,0,True,True,False,SrpKor_train:12,tarifnog tarifne tarifnom tarifnu,tarifni:12,da,odnosni pridev bez neodređenog vida; gold jednoglasno tarifni
+hahaha,haha,11,1.0,0,True,True,False,ReLDI_train:11,hahaha,haha:11,da,ReLDI konvencija normalizacije smeha na 'haha' (11/11)
+kiso,kiša,11,1.0,0,True,True,False,ReLDI_train:11,kisa kisu kisi,kiša:11,da,nije lema (dijakritika: kiša)
+ajde,hajde,11,1.0,0,True,True,False,ReLDI_train:11,ajde,hajde:11,da,"gold jednoglasno hajde (11/11), 0 breaks u SVIM korpusima"
+pravi,prav,11,1.0,0,True,True,False,SrpKor_train:11,pravi,prav:11,ne,"'pravi' (=istinski) je samostalna rečnička lema; visokofrekventna reč, dokaz samo SrpKor"
+salo,sala,10,0.9,1,True,False,False,ReLDI_train:2; SET2_train_dev:2; SrpKor_train:4; UD_train:2,salu sala,sala:9; salo:1,ne,"'salo' je obična imenica; agreement 0.9, 1 break"
+ces,hteti,10,1.0,0,True,True,False,ReLDI_train:10,ces,hteti:10,da,nije lema (ćeš -> hteti)
+nadj,naći,10,1.0,0,True,True,False,ReLDI_train:10,nadjem nadju,naći:10,da,nije lema (nađem/nađu -> naći)
+orentacija,orijentacija,10,0.9,1,False,False,False,ReLDI_train:1; SrpKor_train:9,orijentaciju orijentacija orijentacije orijentacijom,orijentacija:9; orentacija:1,da,"pravopisna greška, nikad legitimna lema; gold 'orentacija:1' je šum anotacije"
+prioritetni,prioritetan,10,1.0,0,True,True,False,SrpKor_train:10,prioritetnih prioritetnu prioritetne prioritetnog prioritetnim,prioritetan:10,da,gold jednoglasno prioritetan (10/10)
+cene,cena,10,1.0,0,True,True,False,SrpKor_train:10,cene,cena:10,da,nije lema (oblik od cena)
+fronta,front,10,1.0,0,True,True,False,SrpKor_train:10,frontu fronta,front:10,da,kroatizam (fronta f.) -> srpski front
+dozvoljeno,dozvoliti,10,1.0,0,True,True,False,SrpKor_train:10,dozvoljeno,dozvoliti:10,da,"particip -> infinitiv, gold jednoglasno"
+prethodni,prethodan,10,1.0,0,True,True,False,SrpKor_train:10,prethodni,prethodan:10,da,gold jednoglasno prethodan (10/10)
+premerka,premijerka,9,1.0,0,True,True,False,SET2_train_dev:6; UD_train:3,premijerka,premijerka:9,da,"iskrivljen oblik, nije lema (premijerka)"
+noci,noć,9,1.0,0,True,True,False,ReLDI_train:9,noci,noć:9,da,"dijakritika, nije lema (noć)"
+skol,škola,9,1.0,0,True,True,False,ReLDI_train:9,skoli skola skolom skolu,škola:9,da,nije lema (škola)
+doci,doći,9,1.0,0,True,True,False,ReLDI_train:9,doci,doći:9,da,"dijakritika, nije lema (doći)"
+privatni,privatan,9,1.0,0,True,True,False,SrpKor_train:9,privatni,privatan:9,da,gold jednoglasno privatan (9/9)
+unesti,uneti,9,1.0,0,True,True,False,SrpKor_train:9,unesu unese unesoše,uneti:9,da,nestandardni varijantni infinitiv iste lekseme (uneti)
+trac,traka,8,1.0,0,True,True,False,SET2_train_dev:4; UD_train:4,traci,traka:8,da,'trač' ima č - gold nikad ne traži 'trac'; ovde dat. od traka
+nadgledi,nadgledati,8,1.0,0,True,True,False,SET2_train_dev:3; SrpKor_train:3; UD_train:2,nadgleda,nadgledati:8,da,nije lema (nadgleda -> nadgledati)
+proseka,prosek,8,1.0,0,True,True,False,SET2_train_dev:2; SrpKor_train:4; UD_train:2,proseka proseku,prosek:8,da,padežni artefakt; 'proseka' (prosečena staza) vrlo retko
+fax,faks,8,1.0,0,True,True,False,ReLDI_train:8,fax faxu faxa faxove,faks:8,da,"strana grafija -> srpski faks, gold jednoglasno (8/8)"
+mrs,mrš,8,1.0,0,True,True,False,ReLDI_train:8,mrs,mrš:8,ne,"'mrs' je rečnička reč (post/mrs - mrsna hrana), moguća u književnom SrpKor; plus englesko 'Mrs'"
+navedeno,navesti,8,1.0,0,True,True,False,SrpKor_train:8,navedeno,navesti:8,da,particip -> infinitiv
+početni,početan,8,1.0,0,True,True,False,SrpKor_train:8,početni,početan:8,da,gold jednoglasno početan (8/8)
+rotar,rotaru,8,1.0,0,True,True,False,SrpKor_train:8,rotaru,rotaru:8,da,gold jednoglasno rotaru; prezime Rotar u srpskim korpusima malo verovatno
+strani,stran,8,1.0,0,True,True,False,SrpKor_train:8,strani,stran:8,da,standardna lema je stran; gold jednoglasno (8/8)
+nozi,noga,8,1.0,0,True,True,False,SrpKor_train:8,nozi,noga:8,da,padežni artefakt (dat. od noga)
+baćo,baća,8,1.0,0,True,True,False,SrpKor_train:8,baćo,baća:8,da,gold jednoglasno baća (8/8)
+banje,banja,7,1.0,0,True,True,False,ReLDI_train:1; SET2_train_dev:3; UD_train:3,banje,banja:7,da,gold jednoglasno banja (7/7); selo Banje retko - prihvaćeno uz malu rezervu
+sejdi,sejdiju,7,1.0,0,True,True,False,SET2_train_dev:5; UD_train:2,sejdiju,sejdiju:7,da,"gold jednoglasno sejdiju (Sejdiu, srpska transkripcija)"
+mastiti,mastilo,7,1.0,0,True,True,False,ReLDI_train:1; SrpKor_train:6,mastilo mastila,mastilo:7,ne,'mastiti' je legitiman glagol (mastiti brk)
+pick,pička,7,1.0,0,True,True,False,ReLDI_train:7,picku picka,pička:7,ne,"engleska reč u tvitovima - strana reč, odbij po defaultu"
+troškovan,troškovni,7,1.0,0,True,True,False,SrpKor_train:7,troškovnom troškovnu troškovno,troškovni:7,da,odnosni pridev; gold jednoglasno troškovni
+avgusta,avgust,7,1.0,0,True,True,False,SrpKor_train:7,avgusta,avgust:7,da,padežni artefakt
+životni,životan,7,1.0,0,True,True,False,SrpKor_train:7,životni,životan:7,da,gold jednoglasno životan (7/7)
+dotaći,dotaknuti,7,1.0,0,True,True,False,SrpKor_train:7,dotakao dotakla dotaći dotakle dotakne,dotaknuti:7,da,varijantni infinitiv ISTE lekseme; gold konvencija uvek dotaknuti
+nanizati,naniže,7,1.0,0,True,True,False,SrpKor_train:7,naniže,naniže:7,ne,'nanizati' je legitiman čest glagol (nanizati perle); meta je prilog naniže
+leka,lek,7,1.0,0,True,True,False,SrpKor_train:7,leka,lek:7,ne,"Leka je ime (Leka Zogu, Leka Ranković) - balkanski news korpusi"
+prole,prol,7,1.0,0,True,True,False,SrpKor_train:7,prole,prol:7,da,gold jednoglasno prol (Orvel); prezime Prole vrlo retko
+flaš,flaša,6,1.0,0,True,True,False,ReLDI_train:3; SET2_train_dev:1; SrpKor_train:1; UD_train:1,flaše flašu flaša,flaša:6,da,nije lema (flaša)
+brđanin,brđani,6,1.0,0,True,True,False,SET2_train_dev:3; UD_train:3,brđani,brđani:6,ne,'brđanin' je legitimna imenica (gorštak); meta je toponim Brđani
+klinc,klinac,6,1.0,0,True,True,False,ReLDI_train:6,klinca klinci klince,klinac:6,da,nije lema (klinac)
+zele,želeti,6,1.0,0,True,True,False,ReLDI_train:6,zele,želeti:6,da,dijakritika (žele -> želeti); nadimak Zele zanemarljiv rizik
+zenski,ženski,6,1.0,0,True,True,False,ReLDI_train:6,zensko zenskih zenska zensku zenske,ženski:6,da,dijakritika (ženski)
+zelje,želja,6,1.0,0,True,True,False,ReLDI_train:6,zelju zelja,želja:6,ne,'zelje' je legitimna imenica (povrće) - česta u književnom SrpKor
+skole,škola,6,1.0,0,True,True,False,ReLDI_train:6,skole,škola:6,da,dijakritika (škola)
+skratiti,skraćen,6,1.0,0,True,True,False,SrpKor_train:6,skraćeni skraćenom skraćenog,skraćen:6,ne,'skratiti' je legitiman čest glagol - smer infinitiv->particip kvari sve tačne glagolske lematizacije
+naglašeno,naglasiti,6,1.0,0,True,True,False,SrpKor_train:6,naglašeno,naglasiti:6,da,particip -> infinitiv
+naslonjač,naslonjača,6,1.0,0,True,True,False,SrpKor_train:6,naslonjaču naslonjače naslonjača naslonjači,naslonjača:6,ne,"'naslonjač' (m.) je legitimna imenica (fotelja), postoji uz 'naslonjača' (f.)"
+tržiti,trgnuti,6,1.0,0,True,True,False,SrpKor_train:6,trže,trgnuti:6,ne,'tržiti' je rečnički glagol (trgovati) - moguć u književnom SrpKor; meta trgnuti je druga leksema
+decentralizovati,decentralizovan,6,1.0,0,True,True,False,SrpKor_train:6,decentralizovana decentralizovane decentralizovanoj decentralizovanim decentralizovanog,decentralizovan:6,ne,legitiman glagol; smer infinitiv -> particip kvari glagolske lematizacije
+naviti,naviše,6,1.0,0,True,True,False,SrpKor_train:6,naviše,naviše:6,ne,'naviti' je legitiman čest glagol (naviti sat); meta je prilog naviše
+stadeti,stati,6,1.0,0,True,True,False,SrpKor_train:6,stade,stati:6,da,ne postoji kao reč (stade -> stati)
+lučan,lučani,6,1.0,0,True,True,False,SrpKor_train:6,lučani lučanima,lučani:6,ne,'lučan' (u obliku luka) je rečnički pridev (lučni most); meta je toponim Lučani
+lampe,lampa,6,1.0,0,True,True,False,SrpKor_train:6,lampe,lampa:6,da,padežni artefakt (lampa)
+kamatan,kamatni,5,1.0,0,True,True,False,SET2_train_dev:1; SrpKor_train:3; UD_train:1,kamatne kamatnu,kamatni:5,da,odnosni pridev; gold jednoglasno kamatni
+onolik,onoliki,5,1.0,0,True,True,False,SET2_train_dev:1; SrpKor_train:3; UD_train:1,onolika onoliko onolikog,onoliki:5,da,gold jednoglasno onoliki
+davan,davni,5,1.0,0,True,True,False,SET2_train_dev:1; SrpKor_train:3; UD_train:1,davne davnog davnih davnim,davni:5,da,gold jednoglasno davni ('davni' nema neodređeni vid); particip od davati kao ADJ lema malo verovatan
+moras,morati,5,1.0,0,True,True,False,ReLDI_train:5,moras,morati:5,da,nije lema (moraš -> morati)
+cek,čekati,5,1.0,0,True,True,False,ReLDI_train:5,ceka cek,čekati:5,da,nije lema (undiacritized čekaj/čeka -> čekati)
+pustati,puštati,5,1.0,0,True,True,False,ReLDI_train:5,pusta pustali pustao,puštati:5,da,nestandardno (puštati)
+mack,mačka,5,1.0,0,True,True,False,ReLDI_train:5,macka macku macke,mačka:5,da,nije lema (mačka)
+cuja,čuti,5,1.0,0,True,True,False,ReLDI_train:5,cuje cuju,čuti:5,da,nije lema (čuje/čuju -> čuti)
+prostoran,prostorni,5,1.0,0,True,True,False,SrpKor_train:5,prostorne prostorna prostornog,prostorni:5,da,gold jednoglasno prostorni; 'prostoran' (=prostran) redak varijantni oblik
+saviti,savijen,5,1.0,0,True,True,False,SrpKor_train:5,savijene savijenoj savijen savijena,savijen:5,ne,'saviti' je legitiman čest glagol; smer infinitiv -> particip
+obrati,obratiti,5,1.0,0,True,True,False,SrpKor_train:5,obrati,obratiti:5,ne,"'obrati' je legitiman glagol (obrati voće, obrati bostan)"
+ogrubeti,ogrubeo,5,1.0,0,True,True,False,SrpKor_train:5,ogrubela ogrubelo ogrubeli,ogrubeo:5,ne,'ogrubeti' je legitiman glagol; 'ogrubeo je' (VERB) -> gold ogrubeti
+toka,tok,5,1.0,0,True,True,False,SrpKor_train:5,toka,tok:5,da,padežni artefakt (gen. od tok); 'toka' (ukras na nošnji) etnografski raritet
+pretrpati,pretrpan,5,1.0,0,True,True,False,SrpKor_train:5,pretrpanoj pretrpana pretrpanu pretrpanim,pretrpan:5,ne,'pretrpati' je legitiman glagol; smer infinitiv -> particip
+vida,vid,5,1.0,0,True,True,False,SrpKor_train:5,vida,vid:5,ne,Vida je žensko ime
+leja,lej,5,1.0,0,True,True,False,SrpKor_train:5,leja leje,lej:5,ne,'leja' je legitimna imenica (baštenska leja); meta je rumunski lej
+sadržano,sadržati,5,1.0,0,True,True,False,SrpKor_train:5,sadržano,sadržati:5,da,particip -> infinitiv
+međukulturni,međukulturan,5,1.0,0,True,True,False,SrpKor_train:5,međukulturnog međukulturnoj međukulturnih,međukulturan:5,da,gold jednoglasno međukulturan
+ivanka,ivanko,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,ivanko,ivanko:4,ne,Ivanka je žensko ime
+božinovski,božinovska,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,božinovske,božinovska:4,ne,'Božinovski' je legitimno muško prezime; meta je ženska varijanta
+slevati,sleva,4,1.0,0,True,False,False,SET2_train_dev:2; SrpKor_train:1; UD_train:1,sleva,sleva:4,da,nestandardno (standard: slivati); gold jednoglasno prilog sleva
+čuma,čumi,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,čumi,čumi:4,ne,'čuma' je dijalekatska reč (kuga) i prezime
+markovićev,markovićeva,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,markovićevoj markovićeve,markovićeva:4,ne,'Markovićev' je legitiman prisvojni pridev (Markovićev plan)
+manev,maneva,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,maneva,maneva:4,ne,'Manev' je legitimno muško prezime (makedonska prezimena)
+maria,mario,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,mario,mario:4,ne,'Maria' je žensko ime (strana grafija od Marija)
+ustaliti,ustaljen,4,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:2; UD_train:1,ustaljeno ustaljenu,ustaljen:4,ne,'ustaliti (se)' je legitiman čest glagol; smer infinitiv -> particip
+italo,ital,4,1.0,0,True,False,False,SET2_train_dev:2; UD_train:2,itala,ital:4,ne,Italo je ime (Italo Kalvino)
+haraći,haraćija,4,1.0,0,True,False,False,SET2_train_dev:4,haraćija haraćiju,haraćija:4,da,nije lema; gold jednoglasno haraćija (transkripcija prezimena Haraqija)
+tesko,teško,4,1.0,0,True,False,False,ReLDI_train:4,tesko,teško:4,da,dijakritika (teško)
+loza,ložiti,4,1.0,0,True,False,False,ReLDI_train:4,lozi loze,ložiti:4,ne,'loza' je obična imenica (vinova loza)
+sluz,služiti,4,1.0,0,True,False,False,ReLDI_train:4,sluzi,služiti:4,ne,'sluz' je obična imenica
+zela,želeti,4,1.0,0,True,False,False,ReLDI_train:4,zeli zelom,želeti:4,da,nije lema (želela -> želeti)
+vaza,važiti,4,1.0,0,True,False,False,ReLDI_train:4,vazi,važiti:4,ne,'vaza' je obična imenica
+dusan,dušan,4,1.0,0,True,False,False,ReLDI_train:4,dusan dusana dusanu,dušan:4,da,dijakritika (Dušan); 'dusan' nije lema
+vasa,vaš,4,1.0,0,True,False,False,ReLDI_train:4,vasa vasom vasu,vaš:4,ne,"Vasa je muško ime (Vasa Pelagić, Vasa Čarapić)"
+solje,šolja,4,1.0,0,True,False,False,ReLDI_train:4,solji solje,šolja:4,da,nije lema (šolja)
+napis,napisati,4,1.0,0,True,False,False,ReLDI_train:4,napise napisi napisu,napisati:4,ne,'napis' je legitimna imenica (napis u novinama)
+cesta,često,4,1.0,0,True,False,False,ReLDI_train:4,cesto,često:4,ne,'cesta' je legitimna imenica (put)
+cep,čep,4,1.0,0,True,False,False,ReLDI_train:4,cepovi cepova,čep:4,ne,'cep' je rečnička reč (mlatilo za vršidbu) - moguća u književnom SrpKor
+taka,takav,4,1.0,0,True,False,False,ReLDI_train:1; SrpKor_train:3,taki take,takav:4,da,nije standardna lema (taki/take dijal. -> takav)
+podrazumevajući,podrazumevati,4,1.0,0,True,False,False,SrpKor_train:4,podrazumevajući,podrazumevati:4,da,glagolski prilog -> infinitiv
+transnacionalan,transnacionalni,4,1.0,0,True,False,False,SrpKor_train:4,transnacionalnog transnacionalnom,transnacionalni:4,da,gold jednoglasno transnacionalni
+objavljeno,objaviti,4,1.0,0,True,False,False,SrpKor_train:4,objavljeno,objaviti:4,da,particip -> infinitiv
+rastaliti,rastati,4,1.0,0,True,False,False,SrpKor_train:4,rastali,rastati:4,ne,'rastaliti' je legitiman glagol (rastopiti metal); meta rastati je druga leksema
+trći,trgnuti,4,1.0,0,True,False,False,SrpKor_train:4,trgao trgavši trgli trgoše,trgnuti:4,da,ne postoji kao standardna lema (aoristi trže/trgoše -> trgnuti)
+kolektivni,kolektivan,4,1.0,0,True,False,False,SrpKor_train:4,kolektivni,kolektivan:4,da,"gold jednoglasno kolektivan, 0 breaks"
+pomaći,pomaknuti,4,1.0,0,True,False,False,SrpKor_train:4,pomakoše pomače pomakao pomaći,pomaknuti:4,da,varijantni infinitiv iste lekseme (pomaknuti)
+razlegati,razlegnuti,4,1.0,0,True,False,False,SrpKor_train:4,razleže,razlegnuti:4,ne,'razlegati se' je legitiman nesvršeni glagol (vidski parnjak od razlegnuti) - gold bi ga mogao tražiti
+polazan,polazni,4,1.0,0,True,False,False,SrpKor_train:4,polazne polaznih polazna,polazni:4,da,odnosni pridev; gold jednoglasno polazni
+kadrov,kadar,4,1.0,0,True,False,False,SrpKor_train:4,kadrova,kadar:4,da,nije lema (gen.mn. kadrova -> kadar)
+četvero,četvoro,4,1.0,0,True,False,False,SrpKor_train:4,četvoro,četvoro:4,da,ijekavsko/hrvatsko -> srpski četvoro
+mentalni,mentalan,4,1.0,0,True,False,False,SrpKor_train:4,mentalni,mentalan:4,da,gold jednoglasno mentalan
+rubalj,rublje,4,1.0,0,True,False,False,SrpKor_train:4,rublja,rublje:4,da,kroatizam (srp. rublja); ovde gen. od rublje (veš) - 'rubalj' nikad srpska gold lema
+petra,petar,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,petrom,petar:3,ne,Petra je žensko ime
+paol,paolo,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,paolu,paolo:3,da,nije lema (Paolu -> Paolo)
+deči,dečiji,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,dečije dečiji,dečiji:3,da,nije standardna lema (dečiji)
+preselenje,preseljenje,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,preseljenje preseljenja,preseljenje:3,da,nestandardno (preseljenje)
+izraženiji,izražen,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,izraženijim izraženije,izražen:3,da,"komparativ -> pozitiv, komparativ nije lema"
+bitak,bitka,3,1.0,0,True,False,False,SET2_train_dev:1; SrpKor_train:1; UD_train:1,bitaka bici,bitka:3,ne,'bitak' je legitimna filozofska imenica (SrpKor sadrži filozofske tekstove)
+zaledeti,zalediti,3,1.0,0,True,False,False,ReLDI_train:1; SET2_train_dev:1; UD_train:1,zaleđenom zaleđene,zalediti:3,da,nestandardno (zalediti)
+cina,činiti,3,1.0,0,True,False,False,ReLDI_train:3,cini cine,činiti:3,da,nije lema (čini/čine -> činiti)
+genije,genij,3,1.0,0,True,False,False,ReLDI_train:3,genije genijima geniji,genij:3,ne,'genije' je STANDARDNA srpska lema; meta 'genij' je kroatizam - smer korekcije pogrešan
+dinkica,dinkić,3,1.0,0,True,False,False,ReLDI_train:3,dinkica dinkicu,dinkić:3,da,nadimak; gold jednoglasno dinkić
+salja,slati,3,1.0,0,True,False,False,ReLDI_train:3,salje salju,slati:3,da,nije lema (šalje/šalju -> slati)
+jutjub,youtube,3,1.0,0,True,False,False,ReLDI_train:3,jutjub jutjubu,youtube:3,ne,smer ka stranoj grafiji; 'jutjub' je regularna srpska transkripcija i može biti gold lema drugde
+tica,ticati,3,1.0,0,True,False,False,ReLDI_train:3,tice,ticati:3,ne,'tica' je kolokvijalna reč za pticu - u tvitovima može biti gold lema
+culi,čuti,3,1.0,0,True,False,False,ReLDI_train:3,culi,čuti:3,da,nije lema (čuli -> čuti)
+tudja,tuđ,3,1.0,0,True,False,False,ReLDI_train:3,tudje,tuđ:3,da,nije lema (tuđa -> tuđ)
+veronauk,veronauka,3,1.0,0,True,False,False,ReLDI_train:3,veronauke,veronauka:3,da,kroatizam (vjeronauk m.) -> srpski veronauka f.
+saban,šaban,3,1.0,0,True,False,False,ReLDI_train:3,sabana,šaban:3,da,dijakritika (Šaban)
+cita,čitati,3,1.0,0,True,False,False,ReLDI_train:3,cita,čitati:3,da,nije lema (čita -> čitati)
+sansa,šansa,3,1.0,0,True,False,False,ReLDI_train:3,sanse sansa,šansa:3,da,dijakritika (šansa)
+milos,miloš,3,1.0,0,True,False,False,ReLDI_train:3,milos,miloš:3,da,dijakritika (Miloš)
+siriti,širiti,3,1.0,0,True,False,False,ReLDI_train:3,siri sire,širiti:3,ne,'siriti' je legitiman glagol (siriti mleko)
+izaslati,izaći,3,1.0,0,True,False,False,ReLDI_train:3,izasla,izaći:3,ne,'izaslati' je rečnički glagol (up. izaslanik); meta izaći je druga leksema
+kolja,klati,3,1.0,0,True,False,False,ReLDI_train:2; SrpKor_train:1,kolje kolju,klati:3,ne,Kolja je ime/nadimak
+dada,dado,3,1.0,0,True,False,False,ReLDI_train:2; SrpKor_train:1,dado dadom,dado:3,ne,'dada' je lema (dadaizam) i čest nadimak Dada
+strastan,strašan,3,1.0,0,True,False,False,ReLDI_train:3,strasno strasna,strašan:3,ne,'strastan' je legitiman čest pridev (=strastven); meta strašan je druga leksema
+lava,lav,3,1.0,0,True,False,False,ReLDI_train:1; SrpKor_train:2,lave lavi lava,lav:3,ne,'lava' je obična imenica (vulkanska lava)
+mlrd,milijarda,3,1.0,0,True,False,False,ReLDI_train:3,mlrd,milijarda:3,ne,skraćenica - konvencije lematizacije skraćenica nisu ujednačene među korpusima (up. min -> min.)
+hut,huti,3,1.0,0,True,False,False,ReLDI_train:3,huta huti,huti:3,da,gold jednoglasno huti (Huti/Housi); 'hut' nije ustaljena srpska lema
+cipov,čip,3,1.0,0,True,False,False,ReLDI_train:3,cipovi,čip:3,da,ne postoji (čipovi -> čip)
+zasnovano,zasnovati,3,1.0,0,True,False,False,SrpKor_train:3,zasnovano,zasnovati:3,da,particip -> infinitiv
+ograničavajući,ograničavati,3,1.0,0,True,False,False,SrpKor_train:3,ograničavajući,ograničavati:3,da,glagolski prilog -> infinitiv
+belic,belica,3,1.0,0,True,False,False,SrpKor_train:3,belica,belica:3,da,nije lema (Belić ima ć; gold je belica)
+opovrći,opovrgnuti,3,1.0,0,True,False,False,SrpKor_train:3,opovrgne opovrgnu,opovrgnuti:3,da,varijantni infinitiv iste lekseme (opovrgnuti)
+uvet,uvo,3,1.0,0,True,False,False,SrpKor_train:3,uveta uvetom,uvo:3,da,ekavizovani kroatizam (uvjet); nije srpska lema - ovde padeži od uvo
+ćuteći,ćutati,3,1.0,0,True,False,False,SrpKor_train:3,ćuteći,ćutati:3,da,glagolski prilog -> infinitiv
+gustin,gustina,3,1.0,0,True,False,False,SrpKor_train:3,gustinu gustina gustine,gustina:3,ne,'gustin' je uobičajen kulinarski naziv (skrob) - legitimna lema
+izvršni,izvršan,3,1.0,0,True,False,False,SrpKor_train:3,izvršni,izvršan:3,da,"gold jednoglasno izvršan, 0 breaks"
+podleći,podlegnuti,3,1.0,0,True,False,False,SrpKor_train:3,podlegne podlegli,podlegnuti:3,da,varijantni infinitiv iste lekseme (podlegnuti)
+proglašeno,proglasiti,3,1.0,0,True,False,False,SrpKor_train:3,proglašeno,proglasiti:3,da,particip -> infinitiv
+stažist,stažista,3,1.0,0,True,False,False,SrpKor_train:3,stažista,stažista:3,da,kroatizam -ist -> srpski -ista
+postavljeno,postaviti,3,1.0,0,True,False,False,SrpKor_train:3,postavljeno,postaviti:3,da,particip -> infinitiv
+temama,tema,3,1.0,0,True,False,False,SrpKor_train:3,temama,tema:3,da,"padežni artefakt (dat/instr.mn.), nije lema"
+čeličan,čelični,3,1.0,0,True,False,False,SrpKor_train:3,čeličnih čeličnim,čelični:3,da,odnosni pridev; gold jednoglasno čelični
+kuka,kuk,3,1.0,0,True,False,False,SrpKor_train:3,kuka,kuk:3,ne,'kuka' je obična imenica
+diferencirati,diferenciran,3,1.0,0,True,False,False,SrpKor_train:3,diferencirani diferencirane,diferenciran:3,ne,legitiman glagol; smer infinitiv -> particip
+ugovornik,ugovornica,3,1.0,0,True,False,False,SrpKor_train:3,ugovornici,ugovornica:3,ne,'ugovornik' je legitiman pravni termin
+akreditovati,akreditovan,3,1.0,0,True,False,False,SrpKor_train:3,akreditovanih akreditovanu akreditovanog,akreditovan:3,ne,legitiman glagol; smer infinitiv -> particip
+srednjoročni,srednjoročan,3,1.0,0,True,False,False,SrpKor_train:3,srednjoročnom srednjoročna,srednjoročan:3,da,gold jednoglasno srednjoročan
+europa,europe,3,1.0,0,True,False,False,SrpKor_train:3,europe,europe:3,ne,'Europa' je legitimna lema (Jupiterov mesec; hrv. Europa); meta 'europe' sumnjiva kao lema
+prvostepen,prvostepeni,3,1.0,0,True,False,False,SrpKor_train:3,prvostepenom prvostepeni prvostepenog,prvostepeni:3,da,odnosni pridev; gold jednoglasno prvostepeni
+toplice,toplica,3,1.0,0,True,False,False,SrpKor_train:3,toplica,toplica:3,ne,'toplice' je pluralia tantum rečnička lema; plus toponimi (Toplice)
+venerični,venerican,3,1.0,0,True,False,False,SrpKor_train:3,venerične veneričnim,venerican:3,ne,"meta 'venerican' je iskrivljena (treba 'veneričan') - šum u gold anotaciji, ne instalirati grešku"
+nelica,nelice,3,1.0,0,True,False,False,SrpKor_train:3,nelica,nelice:3,ne,Nelica je žensko ime/nadimak; meta 'nelice' sumnjiva kao lema

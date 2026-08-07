@@ -1,0 +1,27 @@
+{
+  "workload": {
+    "sentences": 520,
+    "tokens": 11421,
+    "source": "UD Serbian-SET test"
+  },
+  "methodology": {
+    "reps": 3,
+    "warmup": true,
+    "timer": "time.perf_counter",
+    "memory": "ru_maxrss (peak RSS)",
+    "use_gpu": false,
+    "processors": "tokenize,pos,lemma",
+    "pretokenized": true
+  },
+  "load_time_s": 9.3,
+  "throughput_mean": 6222,
+  "throughput_std": 413,
+  "latency_ms_per_sent_mean": 3.5,
+  "latency_ms_per_sent_std": 0.2,
+  "times_s": [
+    2.0,
+    1.8,
+    1.8
+  ],
+  "peak_rss_gb": 4.26
+}

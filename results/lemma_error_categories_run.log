@@ -1,0 +1,34 @@
+Učitavam srLex: <PROJECT_ROOT>/POS-Aware-Stemmer/data/srLex_v1.3.gz
+  Učitano 1,859,742 oblika, 1,810,001 ASCII ključeva za 13.8s
+  Višeznačnih ASCII oblika: 45,014
+  Extra dict: +10,217 odrednica u indeks
+Učitavam dopunski rečnik: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_supplement_v2.json
+  24,114 dopunskih oblika
+Učitavam Np augmentaciju: <PROJECT_ROOT>/Diacritics-Restoration/repo/src/../data/srwac_augment_np.json
+  26,609 Np oblika
+{
+ "total_errors": 174,
+ "categories": {
+  "gold_lemma_missing": 139,
+  "wrong_selection": 35,
+  "oov": 66
+ },
+ "shares_pct": {
+  "gold_lemma_missing": 79.9,
+  "wrong_selection": 20.1,
+  "oov": 37.9
+ },
+ "per_pos": {
+  "N": 92,
+  "A": 57,
+  "R": 6,
+  "P": 5,
+  "V": 5,
+  "Z": 3,
+  "S": 2,
+  "M": 2,
+  "X": 1,
+  "C": 1
+ }
+}
+Saved: <PROJECT_ROOT>/Diacritics-Restoration/repo/results/lemma_error_categories.json

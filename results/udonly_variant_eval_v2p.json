@@ -1,0 +1,16 @@
+{
+  "tagger": "<PROJECT_ROOT>/NLTK Treniranje/models_v2p_udonly/perceptron-tagger-v2p-udonly.pickle",
+  "tagger_classes": 732,
+  "tokens": 11421,
+  "gold": 98.48,
+  "end_to_end": 98.21,
+  "msd_accuracy_normalized": 94.96,
+  "pos_accuracy": 98.84,
+  "combined_variant": {
+    "gold": 98.48,
+    "end_to_end": 98.18,
+    "msd_accuracy_normalized": 95.02,
+    "pos_accuracy": 98.72
+  },
+  "e2e_matches_combined_2dp": false
+}
